@@ -47,7 +47,16 @@ we can count up to 15
 | 5 | 0101 |
 | 6 | 0110 |
 | 7 | 0111 |
-you get the point.
 
+this list continues up to 15 (2^4-1)
 
+we can also do this to our 8 bit bytes
+0000 0000 = 0
+0000 1001 = 2^3 + 2^0 = 9 
+1000 1001 = 2^7 + 2^3 + 2^0 = 137
 
+## hexadecimal
+Hexadecimal is base 16 as opposed to being base 2, therefore things are multiplied by 16^n instead of 2.
+
+The digits used are 0, 1, 2, 3, 4, 5, 6, 7, 8, A, B, C, D, E, F.
+A

@@ -19,6 +19,7 @@ binary is a positional numeral system, where each digit is multiplied by 2^the p
 |  0  |  1  |  0  |  0  |  1  |  1  |  0  |  0  |
 |-----|-----|-----|-----|-----|-----|-----|-----|
 | 2^7 | 2^6 | 2^5 | 2^4 | 2^3 | 2^2 | 2^1 | 2^0 |
+
 (0 * 2^7) + (1 * 2^6) + (0 * 2^5) + (0 * 2^4) + (1 * 2^3) + (1 * 2^2) + (0 * 2^1) + (0 * 2^0) = 76
 > the more bits that we use the higher number that we can achieve
 > Something to note is that this can also be done with negative numbers using something called Two's constant, which will be covered a tiny bit later

@@ -117,10 +117,13 @@ there are a few issues with sign magnitude:
 
 ## One's complement
 one's complement is another way in which we can create negative numbers, we represent this through inverting all of the bits (1 to 0 and 0 to 1).
-
-```10000000 becomes 01111111```
+```
+10000000 becomes 01111111
+```
 
 to express this mathematically:
+```
 ~N~ = (2^n - 1) - N
+```
 
 ## Two's complement

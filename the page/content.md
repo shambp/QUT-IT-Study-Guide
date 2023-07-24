@@ -126,3 +126,18 @@ to express this mathematically:
 the range of values that can be represented are the same as signed magnitude. One's compliment has the same disadvantages (minus the arithmetic issues), while gaining the advantage of having addition being performed using standard binary addition with end-around carry.
 
 ## Two's complement
+an evolution of One's compliemnt this form of complement we assign a negative weighting to the msb in our sequence. two's complement numbers which have their msb set to 1 will be negative. we then calculate by doing the one's compliment +1
+
+```
+Example:
+negative value:
+10101100
+-2^7 + 2^5 + 2^3 + 2^2
+n = -84
+
+and its positive counterpart:
+01010011
+2^6 + 2^4 + 2^1 + 2^0
+83 + 1
+n = 84
+```

@@ -97,3 +97,11 @@ this refers to the way that we declare values in programming.
 - no prefix is decimal notation (56)
 - 0b is the prefix for binary notation (0b10101001)
 - 0x is the prefix for hexadecimal (0xA6)
+
+## Signed intergers
+> this is where the negative numbers come in
+When doing sign magnitude representation we use the MSB to encode the sign of the integer. with 0 indicating positve and 1 being negative.
+- 00000001 is 1
+- 10000001 is -1
+asdf
+asdf

@@ -28,9 +28,10 @@ the more bits that we use the higher number that we can achieve
 - Any positive integer (in this case referred to as R), where R > 1 can be used as the radix or the base of a number system
 - if the base is R, then we require R digits as well to represent all of the possible number
 - for example
- - if r = 5
+  - if r = 5
   - the required digits are 0,1,2,3,4
-
-
+#### Unsigned integers
+Unsigned integers represent the set of counting numbers, with only integers >= 0 are represents
+for a n bit array, the range of numbers can be represented as 0 to 2^n-1
 
 

@@ -40,6 +40,7 @@ for an n bit sized number we can represent 0 to 2^n-1.
 essentially this is displaying every single counting number (0,1,2 and so on) using the array that we have
 if n = 4
 we can count up to 15
+
 |  N  |  Binary representiation  |
 |-----|-----|
 | 0 | 0000 |

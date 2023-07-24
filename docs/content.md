@@ -143,4 +143,4 @@ n = 84
 
 Two's complement is the most common way of representing signed numbers. It also covers the weaknesses found within thte other 2 optionst that we have. There is only one way to show zero, addition is the exact same and the range of the numbers we can represent is increased by 1. To express this range mathematically: ``````2^n-1 to +((2^n-1) - 1)``````
 
-# and that is week 1 done!
+and that is week 1 done!

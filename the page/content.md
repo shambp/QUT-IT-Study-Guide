@@ -61,6 +61,7 @@ Hexadecimal is base 16 as opposed to being base 2, therefore things are multipli
 The digits used are 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, A, B, C, D, E, F. Where A-F are just 10-15.
 
 > little reference table 4 u
+
 |  Hexadecimal  |  Binary   |
 |-----|-----|
 | 0 | 0000 |

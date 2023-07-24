@@ -58,5 +58,30 @@ we can also do this to our 8 bit bytes
 ## hexadecimal
 Hexadecimal is base 16 as opposed to being base 2, therefore things are multiplied by 16^n instead of 2.
 
-The digits used are 0, 1, 2, 3, 4, 5, 6, 7, 8, A, B, C, D, E, F.
-A
+The digits used are 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, A, B, C, D, E, F. Where A-F are just 10-15.
+
+> little reference table 4 u
+|  Hexadecimal  |  Binary   |
+|-----|-----|
+| 0 | 0000 |
+| 1 | 0001 |
+| 2 | 0010 |
+| 3 | 0011 |
+| 4 | 0100 |
+| 5 | 0101 |
+| 6 | 0110 |
+| 7 | 0111 |
+| 8 | 1000 |
+| 9 | 1001 |
+| A | 1010 |
+| B | 1011 |
+| C | 1100 |
+| D | 1101 |
+| E | 1110 |
+| D | 1111 |
+
+hexadecmial is convenient when working with digital systems since each hex digit is the size of a nibble. Example:
+
+(the 16 just represents that this is hexadecimal btw)
+(80)16 = 1000 0000
+(B4)16 = 1911 0100

@@ -20,8 +20,10 @@ binary is a positional numeral system, where each digit is multiplied by 2^the p
 |-----|-----|-----|-----|-----|-----|-----|-----|
 | 2^7 | 2^6 | 2^5 | 2^4 | 2^3 | 2^2 | 2^1 | 2^0 |
 
+Once we map the byte to their respective values, we can add them all together:
 (0 * 2^7) + (1 * 2^6) + (0 * 2^5) + (0 * 2^4) + (1 * 2^3) + (1 * 2^2) + (0 * 2^1) + (0 * 2^0) = 76
-> the more bits that we use the higher number that we can achieve
+> the more bits that we use the higher number that we can achieve,
+>
 > Something to note is that this can also be done with negative numbers using something called Two's constant, which will be covered a tiny bit later
 #### representation
 - Any positive integer (in this case referred to as R), where R > 1 can be used as the radix or the base of a number system

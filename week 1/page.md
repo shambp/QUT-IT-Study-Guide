@@ -17,6 +17,7 @@ We write bits left to right from the most significant bit (MSB) to the least sig
 unlike humans who count within base 10 (0-9); computers count in base 2, or binary (as discussed previously). Which brings the question of how do we count above 1?
 binary is a positional numeral system, where each digit is multiplied by 2^the position in the array, for example:
 | 0 | 1 | 0 | 0 | 1 | 1 | 0 | 0 |
+|---|---|---|---|---|---|---|---|
 | 2^7 | 2^6 | 2^5 | 2^4 | 2^3 | 2^2 | 2^1 | 2^0 |
 (0 * 2^7) + (1 * 2^6) + (0 * 2^5) + (0 * 2^4) + (1 * 2^3) + (1 * 2^2) + (0 * 2^1) + (0 * 2^0) = 76
 > the more bits that we use the higher number that we can achieve

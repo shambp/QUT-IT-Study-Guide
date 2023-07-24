@@ -32,7 +32,22 @@ Once we map the byte to their respective values, we can add them all together:
   - if r = 5
   - the required digits are 0,1,2,3,4
 #### Unsigned integers
-Unsigned integers represent the set of counting numbers, with only integers >= 0 are represents
-for a n bit array, the range of numbers can be represented as 0 to 2^n-1
+Unsigned integers represent counting numbers that are >= 0
+for an n bit sized number we can represent 0 to 2^n-1.
+essentially this is displaying every single counting number (0,1,2 and so on) using the array that we have
+if n = 4
+we can count up to 15
+|  N  |  Binary representiation  |
+|-----|-----|
+| 0 | 0000 |
+| 1 | 0001 |
+| 2 | 0010 |
+| 3 | 0011 |
+| 4 | 0100 |
+| 5 | 0101 |
+| 6 | 0110 |
+| 7 | 0111 |
+you get the point.
+
 
 

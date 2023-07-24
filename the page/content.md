@@ -106,4 +106,5 @@ When doing sign magnitude representation we use the MSB to encode the sign of th
 - 10000001 is -1
 
 something to note is that when doing a sign bit encoded sequence, the msb is consumed. changing our little range equation thing into
-```-(2^n-1 - 1) to +(2^n-1 - 1)```
+
+```-((2^n-1) - 1) to +((2^n-1) - 1)```

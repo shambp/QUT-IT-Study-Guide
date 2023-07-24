@@ -25,12 +25,14 @@ Once we map the byte to their respective values, we can add them all together:
 > the more bits that we use the higher number that we can achieve,
 >
 > Something to note is that this can also be done with negative numbers using something called Two's constant, which will be covered a tiny bit later
+
 #### representation
 - Any positive integer (in this case referred to as R), where R > 1 can be used as the radix or the base of a number system
 - if the base is R, then we require R digits as well to represent all of the possible number
 - for example
   - if r = 5
   - the required digits are 0,1,2,3,4
+
 #### Unsigned integers
 Unsigned integers represent counting numbers that are >= 0
 for an n bit sized number we can represent 0 to 2^n-1.
@@ -86,3 +88,12 @@ hexadecmial is convenient when working with digital systems since each hex digit
 (the 16 just represents that this is hexadecimal btw)
 - (80)16 = 1000 0000
 - (B4)16 = 1911 0100
+
+## Octal
+Octal is the same has hex, but halved, using 8 instead of 16, and only going from 0-7.
+
+## numeric literals
+this refers to the way that we declare values in programming.
+- no prefix is decimal notation (56)
+- 0b is the prefix for binary notation (0b10101001)
+- 0x is the prefix for hexadecimal (0xA6)

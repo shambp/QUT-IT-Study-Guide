@@ -134,13 +134,13 @@ Example:
 10101100
 the first value is 1, therefore negative
 -2^7 + 2^5 + 2^3 + 2^2
-n = -84
+-84 + 1
+n = -83
 
 01010011
 first value is 0
 2^6 + 2^4 + 2^1 + 2^0
-83 + 1
-n = 84
+n = 83
 ```
 
 Two's complement is the most common way of representing signed numbers. It also covers the weaknesses found within thte other 2 optionst that we have. There is only one way to show zero, addition is the exact same and the range of the numbers we can represent is increased by 1. To express this range mathematically: ``````2^n-1 to +((2^n-1) - 1)``````

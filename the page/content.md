@@ -4,7 +4,7 @@ Computers work on 1's and 0's, we arrange them in an array of 8 bits or a Byte
 
 ```
 00000000 < this is a byte
-0000 < within a bit are 2 nibbles
+0000 < within a byte are 2 nibbles
 0 < and within the nibble are 4 bits
 *fyi the terminology still applies if its a 1, using all zeros is just easier
 ```
@@ -98,7 +98,7 @@ this refers to the way that we declare values in programming.
 - 0b is the prefix for binary notation (0b10101001)
 - 0x is the prefix for hexadecimal (0xA6)
 
-## Signed intergers
+## Signed integers
 > this is where the negative numbers come in
 
 When doing sign magnitude representation we use the MSB to encode the sign of the integer. with 0 indicating positve and 1 being negative.
@@ -108,3 +108,10 @@ When doing sign magnitude representation we use the MSB to encode the sign of th
 something to note is that when doing a sign bit encoded sequence, the msb is consumed. changing our little range equation thing into
 
 ```-((2^n-1) - 1) to +((2^n-1) - 1)```
+
+### issues with signed integers
+there are a few issues with sign magnitude
+- there are two ways to represent 0 (0b00000000, 0b10000000)
+- arithmetic and comparison requires inspection of the sign bit
+- the range of numbers you can work with are reduced
+

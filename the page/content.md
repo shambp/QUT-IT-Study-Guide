@@ -1,5 +1,6 @@
 # Week 1
 ## Bytes, Nibbles and Bits
+<details>
 Computers work on 1's and 0's, we arrange them in an array of 8 bits or a Byte
 
 ```
@@ -56,6 +57,7 @@ we can also do this to our 8 bit bytes
 0000 0000 = 0
 0000 1001 = 2^3 + 2^0 = 9 
 1000 1001 = 2^7 + 2^3 + 2^0 = 137
+</details>
 
 ## hexadecimal
 Hexadecimal is base 16 as opposed to being base 2, therefore things are multiplied by 16^n instead of 2.
@@ -105,13 +107,17 @@ When doing sign magnitude representation we use the MSB to encode the sign of th
 - 00000001 is 1
 - 10000001 is -1
 
-something to note is that when doing a sign bit encoded sequence, the msb is consumed. changing our little range equation thing into
+something to note is that when doing a sign bit encoded sequence, the msb is consumed. changing our little range equation thing into:
 
 ```-((2^n-1) - 1) to +((2^n-1) - 1)```
 
 ### issues with signed integers
-there are a few issues with sign magnitude
+there are a few issues with sign magnitude:
 - there are two ways to represent 0 (0b00000000, 0b10000000)
 - arithmetic and comparison requires inspection of the sign bit
 - the range of numbers you can work with are reduced
 
+## One's complement
+one's complement is another way in which we can create negative numbers
+
+## Two's complement

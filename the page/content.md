@@ -1,6 +1,5 @@
 # Week 1
-## Bytes, Nibbles and Bits
-<details>
+## Bytes, Nibbles and Bit
 Computers work on 1's and 0's, we arrange them in an array of 8 bits or a Byte
 
 ```
@@ -57,7 +56,6 @@ we can also do this to our 8 bit bytes
 0000 0000 = 0
 0000 1001 = 2^3 + 2^0 = 9 
 1000 1001 = 2^7 + 2^3 + 2^0 = 137
-</details>
 
 ## hexadecimal
 Hexadecimal is base 16 as opposed to being base 2, therefore things are multiplied by 16^n instead of 2.
@@ -118,6 +116,11 @@ there are a few issues with sign magnitude:
 - the range of numbers you can work with are reduced
 
 ## One's complement
-one's complement is another way in which we can create negative numbers
+one's complement is another way in which we can create negative numbers, we represent this through inverting all of the bits (1 to 0 and 0 to 1).
+
+```10000000 becomes 01111111```
+
+to express this mathematically:
+~N~ = (2^n - 1) - N
 
 ## Two's complement

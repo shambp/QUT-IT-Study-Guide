@@ -49,7 +49,7 @@ alongside this we also have 3 floating point types
 
 if you ever forget the range of the values you can use x.MinValue or x.MaxValue to get the range that you can use, where x is the numeric type
 
-#### M and F suffix
+### M and F suffix
 When declaring certain types of variables we need to add a certain suffix so that we know what kind of literal we are using
 ```
 decimal x = 10.1

@@ -23,16 +23,6 @@ we can also do this within the same operation:
 int x = 2;
 ```
 
-#### M and F suffix
-When declaring certain types of variables we need to add a certain suffix so that we know what kind of literal we are using
-```
-decimal x = 10.1
-this will error out, instead we do
-
-decimal x= 10.1M
-```
-each literal has a different suffix that we can use
-
 ### Integer types
 There are 9 integer types that we can use in C#
 
@@ -59,3 +49,20 @@ alongside this we also have 3 floating point types
 
 if you ever forget the range of the values you can use x.MinValue or x.MaxValue to get the range that you can use, where x is the numeric type
 
+#### M and F suffix
+When declaring certain types of variables we need to add a certain suffix so that we know what kind of literal we are using
+```
+decimal x = 10.1
+this will error out, instead we do
+
+decimal x= 10.1M
+```
+each literal has a different suffix that we can use
+| suffix | description |
+| --- | --- |
+| F | float |
+| D | double |
+| L | long |
+| M | decimal |
+| U | uint |
+| UL | ulong |

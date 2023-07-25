@@ -1,5 +1,5 @@
 # Week 1
-## Bytes, Nibbles and Bit
+## Bytes, Nibbles and Bits
 Computers work on 1's and 0's, we arrange them in an array of 8 bits or a Byte
 
 ```

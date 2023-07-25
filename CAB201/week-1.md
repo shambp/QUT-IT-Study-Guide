@@ -23,6 +23,16 @@ we can also do this within the same operation:
 int x = 2;
 ```
 
+#### M and F suffix
+When declaring certain types of variables we need to add a certain suffix so that we know what kind of literal we are using
+```
+decimal x = 10.1
+this will error out, instead we do
+
+decimal x= 10.1M
+```
+each literal has a different suffix that we can use
+
 ### Integer types
 There are 9 integer types that we can use in C#
 
@@ -32,4 +42,20 @@ There are 9 integer types that we can use in C#
 | byte | 8 bit unsigned integer |
 | short | 16 bit signed integer |
 | ushort | 16 bit unsigned ineteger |
-| char | 16 bit unicode character, the literals are letters but internally it is a 16 bit unsigned integer |
+| char | 16 bit unicode character, the literals are letters but internally its a 16 bit unsigned integer |
+| int | 32 bit signed integer * |
+| uint | 32 bit unsigned integer |
+| long | 64 bit signed integer |
+| ulong | 64 bit unsigned integer |
+
+alongside this we also have 3 floating point types
+| type | descriptions |
+| --- | --- |
+| double* | 64 bit floating point, best for most tasks|
+| decimal | 128 bit flaoting point, smaller range, but greater precision |
+| float | 32 bit flaoting point, not accurate |
+
+> *they are considered the 'normal' numeric types
+
+if you ever forget the range of the values you can use x.MinValue or x.MaxValue to get the range that you can use, where x is the numeric type
+

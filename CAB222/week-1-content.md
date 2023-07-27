@@ -31,12 +31,7 @@ a computer netowrk requires at least 2 computers connected via some kind of tran
 ### layers of the network communcation process
 there are 4 steps to go through before reaching the network medium:
 ![communication layers](https://github.com/shambp/QUT-IT-Study-Guide/blob/main/CAB222/Capture.PNG)
-> sending machine
-- user application
-- network software
-- network protocol
-- network interface
-> it is reversed for the receiving machine
+> Taken directly from the powerpoint
 after it goes through all of these layers it can go through the network medium and then through to the receiving machine.
 
 ## Network Architecture
@@ -47,3 +42,25 @@ To quote the powerpoint
 >>
 >> A networks's physical components and their functional organization and configuration, its operational principles and procedures, as well as data formats use.
 
+THere are two reference models. Those being the TCP/IP protocol suite and the OSI (open system interconnectoin) model
+![Structure of the models](https://github.com/shambp/QUT-IT-Study-Guide/blob/main/CAB222/Capture2.PNG)
+>Taken from the powerpoint
+
+### OSI reference model
+The OSI was proposed by the ISO and provides a common framework for users to work from. It is non specific and is easily applied to most networking protocols.
+
+The osi model is a seven layer organizaion of how data travels. With each layer providing services to the next layer until it reaches the application layer.
+
+### encapsulation
+encapsulation is the addition of control information to a data uit as it moves through the internet layers. Think of it like putting an item inside of a box ready to send off, with the sender and the receivers name & address, they are merely information to help the packet move to its destination. The opposite of encapsulation is de-encapsulation. 
+### The layers
+#### Applicaton Layer
+the application layer provides interfaces. File sharing, message handling and database access.
+> protocols like HTTP and SMTP are found on the application layer
+
+#### Presentation Layer
+handles formatting and translation, which can either be converting data into a format that was specified within the application layer, or reversing the conversion depending on if you are sending or receiving information.
+
+Encryption/decryption also happens at this layer
+
+#### Session Layer

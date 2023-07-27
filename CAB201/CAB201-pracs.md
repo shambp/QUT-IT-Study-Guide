@@ -21,13 +21,19 @@ namespace HelloWorld
 
 you will need to type this every time if you want your code to work.
 
-## content covered
-strings, variables, data types (see cheat sheet)
-
-similair to python with a few key differences 
-
-### strings
+## strings
 we can print strings through ```Console.Writeline('content')```, we can also get user input through ```Console.Readline()```
+### string index
+by using the varname.IndexOf() we can find certain things within strings eg
+```
+string varname = 'this is my variable'
+int varind = varname.IndexOf('v')
+Console.WriteLine(varind)
+
+the console would print 12, as that is the index of the string
+```
+### string trimming
+like with python, we can trim the excess whitespace that may be present within our inputs and variables by using String.Trim()
 #### string formatting
 like with f strings in python we can also do format strings in a simialir manner in c# using the $ symbol
 ```
@@ -36,12 +42,12 @@ Console.WriteLine($'this is my {var1:F4} formatted string {var2}', var1, var2)
 
 using these formatted strings we can also add a suffix to the variables to alter their output, eg the F in the above example will ensure that var1 is treated as a float
 > see the cheat sheet for moe info on suffixes
-### variables
+## variables
 when declaring variables in c#, we must declare the data type that it is (see the cheat sheet for more info on data types)
 ```
 string varname = 'string contents'
 ```
-#### type conversion
+### type conversion
 we can convert variables from one type to another by using the Convert.ToX where x is the data type
 
 </details>

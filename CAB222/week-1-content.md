@@ -20,10 +20,26 @@ weeks 1's content surrounds the history of the internet and the basics of the in
 | Frame | a frame is what a packet is placed into, the fram contains the source information and the destination MAC Address |
 | Bit | 1 and 0, the individual binary elements that make up a byte |
 
-## fundamentals of netowrk communication
+## fundamentals of network communication
 a computer netowrk requires at least 2 computers connected via some kind of transmission medium
 - like an ethernet cable or via airwaves that are transmitted
 - they then need to be connected to an interconnected device
   - router
   - switch
   - access points
+
+### layers of the network communcation process
+there are 4 steps to go through before reaching the network medium:
+> sending machine
+- user application
+- network software
+- network protocol
+- network interface
+> it is reversed for the receiving machine
+after it goes through all of these layers it can go through the network medium and then through to the receiving machine.
+
+## Network Architecture
+the design of a communication network and is a framework that follows some specifications.
+
+To quote the powerpoint
+>> A networks's physical components and their functional organization and configuration, its operational principles and procedures, as well as data formats use. 

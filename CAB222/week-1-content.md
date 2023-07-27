@@ -30,6 +30,7 @@ a computer netowrk requires at least 2 computers connected via some kind of tran
 
 ### layers of the network communcation process
 there are 4 steps to go through before reaching the network medium:
+[communication layers](!shambp/QUT-IT-Study-Guide/CAB222/Capture.PNG)
 > sending machine
 - user application
 - network software
@@ -42,4 +43,7 @@ after it goes through all of these layers it can go through the network medium a
 the design of a communication network and is a framework that follows some specifications.
 
 To quote the powerpoint
->> A networks's physical components and their functional organization and configuration, its operational principles and procedures, as well as data formats use. 
+>>it is a frameowrk for the specification of.
+>>
+>> A networks's physical components and their functional organization and configuration, its operational principles and procedures, as well as data formats use.
+

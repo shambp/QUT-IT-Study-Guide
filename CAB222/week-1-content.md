@@ -30,7 +30,7 @@ a computer netowrk requires at least 2 computers connected via some kind of tran
 
 ### layers of the network communcation process
 there are 4 steps to go through before reaching the network medium:
-[communication layers](https://shambp.github.io/QUT-IT-Study-Guide/CAB222/Capture.png)
+![communication layers](https://github.com/shambp/QUT-IT-Study-Guide/blob/main/CAB222/Capture.PNG)
 > sending machine
 - user application
 - network software

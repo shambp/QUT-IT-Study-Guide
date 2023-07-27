@@ -4,6 +4,7 @@ weeks 1's content surrounds the history of the internet and the basics of the in
 
 ## internet termniology and basics
 >a decent chunk of this week is just terminology
+
 |  Term  |  description  |
 |-----|-----|
 | LAN | Local Area Network, the lowest level of connection (think within the same network) |
@@ -23,6 +24,6 @@ weeks 1's content surrounds the history of the internet and the basics of the in
 a computer netowrk requires at least 2 computers connected via some kind of transmission medium
 - like an ethernet cable or via airwaves that are transmitted
 - they then need to be connected to an interconnected device
- - router
- - switch
- - access points
+  - router
+  - switch
+  - access points

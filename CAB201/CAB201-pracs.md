@@ -1,6 +1,4 @@
 # week 1 prac
-<details>
-
 ## boiler plate
 get extremely use to
 ```
@@ -58,10 +56,3 @@ string varname = 'string contents'
 ```
 ### type conversion
 we can convert variables from one type to another by using the Convert.ToX where x is the data type
-
-</details>
-
-# week 2 prac
-<details>
-
-</details>

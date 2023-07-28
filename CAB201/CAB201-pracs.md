@@ -38,8 +38,17 @@ like with python, we can trim the excess whitespace that may be present within o
 like with f strings in python we can also do format strings in a simialir manner in c# using the $ symbol
 ```
 Console.WriteLine($'this is my {var1:F4} formatted string {var2}', var1, var2)
+
+using \\ we can embed quotes within a string
+Console.WriteLine("this is my string\"with embedded quotes"\")
+\n new line
+\t is a tab
+\\ is a \
 ```
 
+>if you want to read more about string formatting and manipulation, consider reading the docs
+>
+>[string documentation](https://learn.microsoft.com/en-us/dotnet/csharp/programming-guide/strings/)
 using these formatted strings we can also add a suffix to the variables to alter their output, eg the F in the above example will ensure that var1 is treated as a float
 > see the cheat sheet for moe info on suffixes
 ## variables

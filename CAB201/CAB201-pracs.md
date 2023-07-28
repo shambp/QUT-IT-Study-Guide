@@ -49,6 +49,7 @@ Console.WriteLine("this is my string\"with embedded quotes"\")
 >[string documentation](https://learn.microsoft.com/en-us/dotnet/csharp/programming-guide/strings/)
 using these formatted strings we can also add a suffix to the variables to alter their output, eg the F in the above example will ensure that var1 is treated as a float
 > see the cheat sheet for moe info on suffixes
+
 ## variables
 when declaring variables in c#, we must declare the data type that it is (see the cheat sheet for more info on data types)
 ```

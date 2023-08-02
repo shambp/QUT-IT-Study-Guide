@@ -56,7 +56,7 @@ when declaring variables in c#, we must declare the data type that it is (see th
 string varname = 'string contents'
 ```
 ### type conversion
-we can convert variables from one type to another by using the Convert.ToX where x is the data type, we can also use .Parse for type conversion as well, the only difference being that passing a null value through .Parse will result in an error, whereas Convert.To will just give 0
+we can convert variables from one type to another by using the Convert.ToX where x is the data type, we can also use .Parse for type conversion as well, the only difference being that passing a null value through .Parse will result in an error, whereas Convert.To will just give 0. We can work around this by using .TryParse to check if a value will work, and will output it as boolean (see While section for an example).
 
 # Week 2
 ### If statements
@@ -86,8 +86,8 @@ namespace BasicIf
 ### else, else if & nested if
 in conjunction with if statements, we can also nest more if statements to check more variables, or use else/else if statements to create a suitable exit to the statement:
 
+#### Else & Else if
 ```
-Else statements
 using System;
 
 namespace Else
@@ -114,8 +114,10 @@ namespace Else
         }
     }
 }
+```
 
-nested If
+#### Nested If
+```
 using System;
 
 namespace NestedElse
@@ -171,3 +173,86 @@ namespace SwitchStatements
 ```
 
 ## While
+the concept is the exact same as python, but iwht a difference in syntax
+
+```
+using System;
+
+namespace While Statements
+{
+    class Program
+    {
+        public static void Main( string [] args )
+        {
+            while(true)
+            {
+                Console.WriteLine("please enter an integer between 0 and 10");
+                string input = Console.Readling();
+                inputint = int.Parse(input);
+                //dummy var for .TryParse
+                int parseint;
+
+                //test value to see if it is an integer or not
+                if(int.TryParse(inputint, out parseint))
+                // the two pipes here are really cool, we are checking for two statements at the same time.
+                    if (inputint < 0 || inputint > 10)
+                    {
+                        Console.WriteLine("try again please");
+                    }
+                    else
+                    {
+                        continue;
+                    }
+                else
+                {
+                    Console.WriteLine("an integer is required, try again")
+                }
+                Console.WriteLine($"your input was {inputint}");
+                
+            }
+        }
+    }
+}
+```
+
+## For
+for statements are a bit different to python, allowing up to 3 arguements.
+
+- init clause
+ - our declaration statement
+- guard clause
+ - is a boolean expression
+ - can be left as an empty expression
+- update clause
+ - list of expression statements
+ - usually to increment a counter in +ve or -ve direction
+ - can be left blank
+
+ ```
+ using System;
+
+namespace SwitchStatements
+{
+    class Program
+    {
+        public static void Main( string [] args )
+        {
+            // pretend i put something here idk
+            string input = Console.Readline();
+            inputint = int.Parse(input);
+            
+            //computing the sum
+            ulong total = 0;
+
+            for (int i = 1; i <= inputint; i++)
+            {
+                total += (ulong) i;
+            }
+            Console.WriteLine($"The sum of the interegers from 1 to {inputint} is {total}")
+        }
+    }
+}
+ ```
+
+ ## Break and Continue
+ we have seen break already, that being its purpose is to stop the flow through our statements. But c# also has a command called continue, which has the same function as pass in python, jumping to the end of our loop body. preventing un needed lines from being ran and errors being created

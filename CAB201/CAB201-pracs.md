@@ -11,7 +11,7 @@ namespace HelloWorld
         public static void Main( string [] args )
         {
             // YOUR CODE GOES HERE
-            Console.WriteLine("Hellow world!?")
+            Console.WriteLine("Hellow world!?");
         }
     }
 }
@@ -56,4 +56,118 @@ when declaring variables in c#, we must declare the data type that it is (see th
 string varname = 'string contents'
 ```
 ### type conversion
-we can convert variables from one type to another by using the Convert.ToX where x is the data type
+we can convert variables from one type to another by using the Convert.ToX where x is the data type, we can also use .Parse for type conversion as well, the only difference being that passing a null value through .Parse will result in an error, whereas Convert.To will just give 0
+
+# Week 2
+### If statements
+like python, we can use if statements in c# to check a value against a constant and then make the program act accordingly:
+
+```
+using System;
+
+namespace BasicIf
+{
+    class Program
+    {
+        public static void Main( string [] args )
+        {
+            Console.WriteLine("Input something");
+            string input = Console.ReadLine();
+            const int number = 15;
+            if (input >= number);
+            {
+                Console.WriteLine("Example.");
+            }
+        }
+    }
+}
+```
+
+### else, else if & nested if
+in conjunction with if statements, we can also nest more if statements to check more variables, or use else/else if statements to create a suitable exit to the statement:
+
+```
+Else statements
+using System;
+
+namespace Else
+{
+    class Program
+    {
+        public static void Main( string [] args )
+        {
+            Console.WriteLine("Input something");
+            string input = Console.ReadLine();
+            const int number = 15;
+            if (input >= number);
+            {
+                Console.WriteLine("Example.");
+            }
+            else if (input != number);
+            {
+                Console.WriteLine("Not Example.");
+            }
+            else
+            {
+                //keeping a block empty is the equivalent to the 'pass' command in python. signalling the program to move on.
+            }
+        }
+    }
+}
+
+nested If
+using System;
+
+namespace NestedElse
+{
+    class Program
+    {
+        public static void Main( string [] args )
+        {
+            Console.WriteLine("Input something");
+            string input = Console.ReadLine();
+            const int number = 15;
+            if (input > number);
+            {
+                Console.WriteLine("Example.");
+                if (input < number);
+                {           
+                    Console.WriteLine("Not Example.");
+                }
+            }
+        }
+    }
+}
+```
+
+## Switch statements
+switch statements is another kind of multi condition statement, which can sometimes be used instead of nesting ifs.
+
+```
+using System;
+
+namespace SwitchStatements
+{
+    class Program
+    {
+        public static void Main( string [] args )
+        {
+            Console.WriteLine("Input something");
+            string input = Console.ReadLine();
+
+            string example;
+
+            switch(input);
+            {
+                case "hello": example = "example"; break;
+                case "goodbye": example = "not example"; break;
+                // break will end our case checking.
+                default: example = "unknown entry"; break;
+            }
+            Console.WriteLine(example)
+        }
+    }
+}
+```
+
+## While

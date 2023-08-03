@@ -256,3 +256,6 @@ namespace SwitchStatements
 
  ## Break and Continue
  we have seen break already, that being its purpose is to stop the flow through our statements. But c# also has a command called continue, which has the same function as pass in python, jumping to the end of our loop body. preventing un needed lines from being ran and errors being created
+
+## Boolean 
+the exact same as python, ==, <, <=, !=, >, >= all have the same functions, but we also have the addition of &&, || and !a, equating to and, or and not respectively. we can use parenthesis to order our boolean expressions

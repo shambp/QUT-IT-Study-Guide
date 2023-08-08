@@ -9,6 +9,80 @@ binary is a positional numeral system, where each digit is multiplied by 2^the p
 
 Once we map the byte to their respective values, we can add them all together:
 (0 * 2^7) + (1 * 2^6) + (0 * 2^5) + (0 * 2^4) + (1 * 2^3) + (1 * 2^2) + (0 * 2^1) + (0 * 2^0) = 76
+
+#### Unsigned integers
+Unsigned integers represent counting numbers that are >= 0
+for an n bit sized number we can represent 0 to 2^n-1.
+essentially this is displaying every single counting number (0,1,2 and so on) using the array that we have
+if n = 4
+we can count up to 15
+
+|  N  |  Binary representiation  |
+|-----|-----|
+| 0 | 0000 |
+| 1 | 0001 |
+| 2 | 0010 |
+| 3 | 0011 |
+| 4 | 0100 |
+| 5 | 0101 |
+| 6 | 0110 |
+| 7 | 0111 |
+
+## hexadecimal
+Hexadecimal is base 16 as opposed to being base 2, therefore things are multiplied by 16^n instead of 2.
+
+The digits used are 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, A, B, C, D, E, F. Where A-F are just 10-15.
+
+> little reference table 4 u
+
+|  Hexadecimal  |  Binary   |
+|-----|-----|
+| 0 | 0000 |
+| 1 | 0001 |
+| 2 | 0010 |
+| 3 | 0011 |
+| 4 | 0100 |
+| 5 | 0101 |
+| 6 | 0110 |
+| 7 | 0111 |
+| 8 | 1000 |
+| 9 | 1001 |
+| A | 1010 |
+| B | 1011 |
+| C | 1100 |
+| D | 1101 |
+| E | 1110 |
+| D | 1111 |
+
+## One's complement
+one's complement is another way in which we can create negative numbers, we represent this through inverting all of the bits (1 to 0 and 0 to 1).
+
+```10000000 becomes 01111111```
+
+to express this mathematically: ```N~ = (2^n - 1) - N```
+
+the range of values that can be represented are the same as signed magnitude. One's compliment has the same disadvantages (minus the arithmetic issues), while gaining the advantage of having addition being performed using standard binary addition with end-around carry.
+
+## Two's complement
+an evolution of One's compliemnt this form of complement we assign a negative weighting to the msb in our sequence. two's complement numbers which have their msb set to 1 will be negative. we then calculate by doing the one's compliment +1
+
+```
+Example:
+10101100
+the first value is 1, therefore negative
+-2^7 + 2^5 + 2^3 + 2^2
+-84 + 1
+n = -83
+
+01010011
+first value is 0
+2^6 + 2^4 + 2^1 + 2^0
+n = 83
+```
+
+Two's complement is the most common way of representing signed numbers. It also covers the weaknesses found within thte other 2 optionst that we have. There is only one way to show zero, addition is the exact same and the range of the numbers we can represent is increased by 1. To express this range mathematically: ``````2^n-1 to +((2^n-1) - 1)``````
+
+## Tutorial
 week 1 was all about setting up your IDE and getting familar with the documentation, content literally done in 20 mins
 
 # Week 2
@@ -101,6 +175,47 @@ when storing the result of addition, we require n+1 bits at most. This is due to
 #### Avoiding Overflow
 we can avoid overflow in 8 bit arithmetic by using 16 bit operands and padding the values with multiple zeros (0000000010110011).
 ### multi-byte arithmetic
+if we need to perform calculations that are wider than our hardwares architecutre, multiple operations are required. Most of these opersations the carry bit is used to facilitate this.
+```
+we have 2 bytes that have been padded.
+0b0000001111101000 + 0000011111010000
+
+our first step is to add the lower section
+11101000 + 11010000
+= 1 10111000
+then we add the high bytes + the carry bit
+00000011 + 00000111 + 10000000
+0 00001011
+
+totalling out to 0b00001011 10111000
+```
+
 ### Subraction
+binary subraction is done through Two's complement
+```
+0b01100100 - 0b00110010
+change it to twos complemtn
+0b01100100 + 0b11001110
+and then you just add then together
+```
+
 ### Multiplication
-### Division
+binary multiplication is easily understood as the sum of a set of partial products, when doing multiplication we usually do it within the nibbles 4 bits * 4 bits.
+```
+1101 *
+1001 =
+1101 is our first sum
+we then do 1101 * 1000
+giving us 1110101 as our result
+```
+
+### Division & other fucntions
+division, square roots and other fucntions are very expensive to implemtn on hardware, and are not found on convential ALUs
+
+some techniques that we can use to avoid division operators are as follows
+- division can be implementedusing a multiplier if the divisor can be converted to its reciprocal
+ - 250 / 22 = 250 * (1/22)
+ - dividing by powers of 2 can be implemented using shifts
+
+## Tutorial
+# Week 3 

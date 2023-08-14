@@ -218,4 +218,7 @@ some techniques that we can use to avoid division operators are as follows
  - dividing by powers of 2 can be implemented using shifts
 
 ## Tutorial
+this is when things start to get a bit ridiculous, so profit off of my pain and lets learn assembly!
+
+some things you will need to learn is where the result of your operations will end up, 
 # Week 3 

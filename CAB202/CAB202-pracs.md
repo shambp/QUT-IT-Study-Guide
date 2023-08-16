@@ -217,8 +217,10 @@ some techniques that we can use to avoid division operators are as follows
  - 250 / 22 = 250 * (1/22)
  - dividing by powers of 2 can be implemented using shifts
 
-## Tutorial
-this is when things start to get a bit ridiculous, so profit off of my pain and lets learn assembly!
-
-some things you will need to learn is where the result of your operations will end up, 
 # Week 3 
+
+## discretisation
+in any real world system we always ened to translate at some point between analogue and figial signals, that being continous and bits respectively. The transfer between each state is what we call discretisation.
+
+## logic levels
+we most commanly use the voltage level applied to/by a microcontroller pin to represent a logical level

@@ -217,10 +217,58 @@ some techniques that we can use to avoid division operators are as follows
  - 250 / 22 = 250 * (1/22)
  - dividing by powers of 2 can be implemented using shifts
 
+## Tutorial
 # Week 3 
+## Logic Levels
+### discretisation
+in any real world system we need to translate some kind of analogue ( continuous) into a digital signal (bits) or vice versa. When we translate this its called **discretisaion**
 
-## discretisation
-in any real world system we always ened to translate at some point between analogue and figial signals, that being continous and bits respectively. The transfer between each state is what we call discretisation.
+### Logic Levels in Inputs
+in an ideal world, we would have 2 inputs, one being for a high voltage input and a low vlotage input, with a clear zone in between that does not accept inputs. We do this through the use of thresholds. a vlotage above the input high threshold is considered high or logical 1, with its low counterpart being logical 0
 
-## logic levels
-we most commanly use the voltage level applied to/by a microcontroller pin to represent a logical level
+### Hysteresis
+refers to the property of a system which has a state dependent on its history.
+
+When an inputer is in the low state, we would not consider it to have transisiotned to the hihg state until the voltage crosses the high input voltage threshold. once it crosses our high threshold, it would cross over to high.
+
+Essentially hysteresis is a method of discretisation that uses logical 1 and 0, with a threshold being place somehere to swap between them both. (would strongly suggest looking at the graphs in the sliedes if you have issues understanding)
+
+## electrical quantitites
+there are 3 ways that we want to measure electricity.
+#### Voltage
+Measures the electric potnetial difference two points in a circuit. which is measured in volts (V)
+- it represents the **potential** of the electrical system to do work
+- commonly measured with respect to ground (or 0V)
+- by convention we use the variable _v_ to represent voltage
+#### Current
+current measures the rate of flow of electrical charge trhough a circuit, in Amps (A)
+- by convention we use the variable _i_ to represent the current
+#### Power
+is the rate of energy transferral per unit time, measured in watts
+- in an electrical circuit, power is given through the equation
+>> P = v * i
+
+## Ohm's Law
+resistence is the property of a circuit that opposes the flow of current
+- measured in ohms
+- we usually assume that the wires that connect elements of our circuit are _ideal_ or have no resistance.
+- ohms law describes the relationship between voltage, current and resistance, represented with the equation
+>> v = i * R
+>> where R is the resistance in the system
+
+## basic circuit elements
+within cab202 we will be working with resistors, switches and LEDS
+
+all other circuit elements are reated as black boxes
+
+### switches
+im not going to explain this, works the same as ur light switch
+
+### diodes
+diodes are a kind semiconductor which will only allow electricity to flow in one direction, this is done with the use of a anode and a cathode, with the flow being from anode -> cathode
+
+### Integrated circuits
+a set of electronic circuits implemented on a single piece of a semiconductor materail (usually silicon).
+
+## Digital output interfacing
+while all digital outputs are designed to bea ble to drive connected 

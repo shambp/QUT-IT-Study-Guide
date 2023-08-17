@@ -256,7 +256,7 @@ resistence is the property of a circuit that opposes the flow of current
 >> v = i * R
 >> where R is the resistance in the system
 
-## basic circuit elements
+## Basic Circuit Elements
 within cab202 we will be working with resistors, switches and LEDS
 
 all other circuit elements are reated as black boxes
@@ -271,4 +271,50 @@ diodes are a kind semiconductor which will only allow electricity to flow in one
 a set of electronic circuits implemented on a single piece of a semiconductor materail (usually silicon).
 
 ## Digital output interfacing
-while all digital outputs are designed to bea ble to drive connected 
+while all digital outputs are designed to bea ble to drive connected circuits to one of the two states (those being high and low, referred to at the beginning of week 3), the appropriate technique to get there is specific based on context:
+- what wort of loads is this output required to drive
+- could more than one device be attempting to actively drive the net to a specific logic level?
+
+we call common points of connection for multiple components a **net**.
+
+### Push-pull outputs
+a push pull digital output is the most common form of ourput, and is commonly formed using two transistors which act like switches.
+- one connected to the high
+- and the other connected to the low
+
+The output state is determined by the logic level of the input. a push pull output can both source and sink current from the connected net.
+
+### High impedence outputs
+in many scenarios it is required for a digital output to be put into a hi impedence (HiZ) state. when outputting HiZ, the rest of the circuitry will view it as an open circuit (as if the output was completely disconnected from the system).
+
+When a figital output is in a HiZ state, the voltage on the output will be determined by whatever other circuitry is connected to that output
+
+we would want to use HiZ inputs when multiple devices need to signal over the same wire.
+
+### Pull-up, Pull-down resistors
+in circumstances where it might be possible that there isnt a device actively driving a net high or all (for example if all of our connected outputs are currently in the HiZ state) we might like ot ensure that the state of the pin is always well-defined using a pull up or pull down resistor
+
+these resistors tehn to have have a high value (within the range of a kilo-ohm (i think thats what their notation is saying dont quote me on that)). When there is no other circuitry driving the net, the reistor will either pull the voltage up or down.
+
+When another device actively drives the net, the active device defines the voltage of the net. The small effect that the resistor has on the system is sourced or sunk by the active device within the net.
+
+multiple push pull outputs should never be connected to the same net, in the event that there is one of each present, a short circuit would result and could damage one or more of the devices.
+
+### Open Drain ouputs
+a way that we can prevent and avoid a short circuit through multiple pull up/down reistors is to use open-drain output instead. Which are either in high impedance, or simply just pulls to ground. we would use a pull up resistor in conjunction with this to pull the net to the high state as well.
+
+## Microcontroller ports
+### Microcontroller Pins
+the way we interface with our controllers is through their pins, its the only way to get input and output from them. However not every pin has the same purpose:
+- general purpose input and output (GPIO)
+- Peripheral functions
+- other misc functions like power supply
+
+are all valid uses for mcu pins, whic hwe frequentlu organise into IO banks. when programming AVR controllers we call them ports
+- ports and pins have an alphanumeric designation purely as an identifier
+- ports are organised into groups of 8 pins to allow a 1-1 correspondence between bytes and pins.
+
+### the ports on the atiny1626
+
+### configuring an atiny 1626 port
+

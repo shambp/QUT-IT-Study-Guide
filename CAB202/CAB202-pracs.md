@@ -329,4 +329,4 @@ are all valid uses for mcu pins, whic hwe frequentlu organise into IO banks. whe
  i would suggest looking at the diagrams for this section, shows you where they arll are and what they are for.
 
 ### configuring an atiny 1626 port
-[port image](https://github.com/shambp/QUT-IT-Study-Guide/blob/main/CAB202/Capture.PNG)
+![port image](https://github.com/shambp/QUT-IT-Study-Guide/blob/main/CAB202/Capture.PNG)

@@ -315,6 +315,18 @@ are all valid uses for mcu pins, whic hwe frequentlu organise into IO banks. whe
 - ports are organised into groups of 8 pins to allow a 1-1 correspondence between bytes and pins.
 
 ### the ports on the atiny1626
+- dir
+ - controls push pull driver output
+- out
+ - controls the output state (high or low)
+- in
+ - is used to read the state of a pin
+- internal pull-up
+ - which can be software enabled
+- Physical voltage on pin
+ - can be routed to an analogue to digital convert (ADC)
+
+ i would suggest looking at the diagrams for this section, shows you where they arll are and what they are for.
 
 ### configuring an atiny 1626 port
 

@@ -330,3 +330,105 @@ are all valid uses for mcu pins, whic hwe frequentlu organise into IO banks. whe
 
 ### configuring an atiny 1626 port
 ![port image](https://github.com/shambp/QUT-IT-Study-Guide/blob/main/CAB202/Capture.PNG)
+
+for output we:
+
+before we enable a pin as an output, we need to put the corresponding port pin into **safe initial statez** by writing to the OUT register (or OUTSET/OUTCLR)
+
+we thgen configure the port pin as an output by setting the corresponding bits in the DIR register (we can use DIRSET)
+
+the pin state can then be changed by writing to the correspoinding bit in the OUT register (also outset, outclr and OUTTGL)
+
+```
+ldi r16, 0b00100000 
+sts PORTB_OUT, R16 //set the intitial state PB5 (lef off)
+sts PORTB_DIR, r16 // enable it as an output
+sts PORTB_OUTTGL, r16
+
+i have no fucking idea what any of this means
+```
+
+for inputs we:
+
+(this step is optional and should only be done if required) enable the internal pull-up reistor by setting the PULLUPEN bit in the corresponding PINnCTRL register
+
+read the in register to get the current state of the pin, you may also want to use a bit mask to isolate the bit for the relavent pin
+
+```
+ldi r15, 0x08 //bitmask for out pullupen
+sts PORTA-PIN4CTRL, r16 //enable the pa4 pullup resistor
+lds r16, PORTA_IN //get PORT A state
+andi r16, 0b00010000 //isolate pin 4
+```
+
+### peripheral multiplexing
+as microcontrollers typically have many more peripheral functions than available pins, peripheral functions are usually multiplexed.
+
+multiple differend functions can usually be mapped to a given pin, but can only have one enabled at a time
+
+often peripheral functions can be mapped to different sets of pins, giving flexibility and avoids clashes.
+
+when enabled peripheral functions will override standard port functions
+
+#### multiplexing on the atiny1626
+on the atiny1626 microcontroller, peripheral functions automatically override standard PORT functions, when a corresponding one is enabled
+
+## interfacing to simple IO
+### driving leds
+the brightness of the led is proportionate to the magnitude of current passing through it
+
+they are non ohmic device, we cannot drive them directly with voltage, doing so would result in uncontrolled current flow, can damage the LED or driver. to prevent this we pair indicator LEDS with a series resistor to limit the current.
+
+The appropriate driving current is depending on the led we are using:
+- for indicators we want something between 1-20 mA
+
+#### calculating LED series resistor values
+is an approximation. we require
+- the driving voltage
+ - the supply voltage of the mcu (logical high)
+- the forward voltage
+ - also found from datasheet
+- the current
+ - found from datasheet usually
+
+so in context of our board
+- drive is 3.3
+- forward varies
+ - sink source current from a pin of up to 10mA
+ - if we do 5mA, the led display uses approx 1.8v
+-
+
+we can then do the math
+```
+we can calculate using ohms law
+vr = driving voltage - forward voltage
+vr = 3.3 - 1.8 = 1.5v
+vr = 1.5v
+
+R = vr/i
+R = 1.5/5 * 10^-3 = 300ohm
+```
+
+#### interfacing to LEDS
+an led can be driving in two different configs, active high and active low, where the led will be lit when the pin output is high and low repsectively
+
+both methods have their uses.
+
+on quty the led is driven in active low, if the internal pullup resistors are mistakenly enabled, no current will flow into the leds.
+
+the mcu pins can sink higher currents than they can source
+
+### switches as digital inputs
+we can use a switch to set the state of a pin to be high or low, we can map them directly to logical states (0, 1 since switches only have 2 options).
+
+#### interfacing to switches
+same with leds, we can interface switches to mcu pins in active high or low, eg if in active high, the pin will be high when switch is closed.
+
+we prefer active low, it allows utilisation of internal pullup resistors.
+
+## interfacing to integrated circuits
+for digital intergrated circuits their inputs are typically high impedance and their outputs are typically push pull.
+
+this means that we can usually interface IC byt simply connecting their pins. For IC inputs, we configure the microcontroller pin as an output the microcontroller sets the logic level of the net in this case, and the same for input
+
+it may be necessitated to add a pullup or down resistor if it is imoprtant that an ic input has a known state prior to the config of the relevent microcontroller pins ass outputs

@@ -449,3 +449,31 @@ the funky capitalisaiton is to remove ambiguity
  
 ## visibility
 basically what level we want it to be at. it can be internal (private) or external (public) think of it like whether you declare your variables as global or not in python.
+
+# Week 4
+software projects are complex. with a projects complexity scaling with size. this is because with every new line of code we add, we are adding a new interaction to our program and we must consider how they will all interact.
+
+>> this makes programming highly efficient due to this networking nature, however the complexity can often be overwhelming. Obviusly with time it becomes easier.
+
+This is where abstraction comes in.
+
+## Abstraction
+is the process where we strip away details of less importance in order to focus on the parts teh really matter, an imporant concept within abstraction is the reusing of code, there are several different kinds of abstraction.
+
+### Procedural Abstraction
+a fundamental class of abstractoin in computer science.
+
+Common tasks are identified and split out into procedures (Functions, Methods). this enables the procedure to be reused multiple time
+
+>> this reduces the amount of complexity in an application, through adding overall less lines and being easily changed in the even that the requirements change
+
+### do command
+was shown off in the lectures, essentially a while loop but cooler, 
+```
+string name;
+DO
+{
+    Console.WriteLine("What is your name?");
+    name = Console.ReadLine();
+} while (name = '');
+```

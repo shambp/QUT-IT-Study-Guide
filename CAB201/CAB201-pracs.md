@@ -467,13 +467,136 @@ Common tasks are identified and split out into procedures (Functions, Methods). 
 
 >> this reduces the amount of complexity in an application, through adding overall less lines and being easily changed in the even that the requirements change
 
-### do command
-was shown off in the lectures, essentially a while loop but cooler, 
+the only really good way to explain this is with an example, with before and after being shown
 ```
+before
 string name;
-DO
+do
 {
-    Console.WriteLine("What is your name?");
-    name = Console.ReadLine();
-} while (name = '');
+    Console.WriteLine("what is your name?");
+    name = Console.ReadLine()
+} while (name == "")
+
+string address;
+do
+{
+    Console.WriteLine("what is your address?");
+    name = Console.ReadLine()
+} while (address == "")
+
+Console.WriteLine($"hello {name} of {address}")
 ```
+
+alternatively we could use procedural we would just make it its own method and use it twice
+```
+static string getInput(string message)
+{
+    string input
+    do
+    {
+    Console.WriteLine("message");
+    input = Console.ReadLine()
+    } while (address == "")
+    return input
+
+}
+static void main(string[] args)
+{
+    string name = getInput("What is your name?")
+    string address = getInput("what is your address?")
+    Console.WriteLine($"hello {name} of {address}")
+}
+```
+
+what we have done is noticed that both of these use the exact same method to gather a response, with the only difference the information inputted and the question that is being asked, therefore we can create a procedure that gets the information with the two differing points being the variable that it is stored in and the question input. the lectures have more examples that help illustrate this
+
+### Programming to a Contract
+basically what oldmate is going on about here is that you have 2 people, the implementor and the programmer, the implementor creates the procedure and the programmer uses the procedure. its a two way street where both people are involved. The programmer agress to certain things when they call the method, and the implementor agrees that the method will behave as advertised. the programer could be you going to use the code. and the implementor could be you going back in 6 months time to edit/maintain the method so that it continues to do what it says on the tin.
+
+#### method parameters and reference types
+objects are passed to methods as references, this means if the the object has public fields, or public methods, than the method that you pass can also modify those as well
+
+if we consider a method called normaliseAraay(), which takes an array of doubles and then normalises it so the magnitude of one. We need to consider a few things, like does the method modify the array itself and pass it in place? what if it creates an entirely brand new array? leaving the originial untouched?
+
+##### out and ref
+these keywords are used both in the method signature and in the calling code. out is used for an output parameter, and ref is used for reference parameters
+
+as an example:
+
+Out
+```
+void getPosition(out inx, out int y)
+
+bool Int32.TryParse(strings, out int result)
+^^ will allow us to check whether or not the parse works or not.
+this effectly creates a copy of our variable
+```
+
+Ref
+```
+void Array.Resize(ref t[] array, int newSize)
+unlike out, ref does not create a copy of the variable, giving us granularity in our reference types.
+```
+
+##### null and nullable types
+null means that our reference does not point to any object, a varialbe is null before we initialise any information into it. object variables can be set to null, and we can check if something is null as well using our operators == and !=. on top of this c# has something called nullable types, introduced to prevent potential issues in the future. essentially object types shout not be null at any ponit where they might be accessed unless the type is nullable
+
+nullable types have a ? after the type name
+```
+int[]? array;
+Student? myStudent;
+```
+
+the compiler should be warning you if you are using non-nullable variables that have the potential to be null. nullable values are allowed to be null, but operatoins that do not work on null values cannot be carried out on nullable values UNLESS they are guaranteed to not be null.
+
+eg ```if (response != null)``` would be a valid way to prove that a nullable object is not null
+
+### Data Abstraction
+just as we identify similairites and differences in code for procedural abstraction, the same can be done for data in **data abstraction**
+
+>> only classes support data abstraction, methods will support procedural
+
+Abstract data types are very powerful in object oriented programming. We can seperate the external interface from the internal implementation to enable greater code reuse
+
+#### interfaces
+an interface is similair to a class, but it does not contain any code, private members or fields
+
+```
+interface Ifoo
+{
+    public void bar (out int x, out in y)
+}
+^^
+we tend to name interfaces with the capital I at the start.
+```
+
+classes can implement interfaces ```class Student : Ifoo```. which means that they follow the contract presented by the interface (such as implementing all of the methods). Code can be designed to work with any classes implementing that interface.
+
+### Generics
+some types/methods in c# can be designed to work with multiple different types, and customisede to refer to a specific type when they are called. These are known as generics. They are commonly used for collectoin types, which can be configured to contain a specific type of data. we wont be covering generics in detail, just going over it.
+
+```
+List<float> waveform = new List<float>();
+
+Dictionary<string, int> grades;
+```
+
+#### Lists
+lists are arrays but with a variable size instead of fixed. syntax is ```List<DataType> listName = new List<DataType>();``` we can add a set of {curly braces} after the parenthesis if we want to initialise the list with data inside.
+
+#### dictionaries
+they are an associative array, and are efficient when inserting new values or lookup up existing values using the key
+
+keep in mind that the keys are unique but the values are not
+
+```
+Dictionary<key, value> dictName = new Dictionary<key, value();
+
+eg
+Dictionary<string, Person> people = new Dictionary<string, Person>();
+people.Add("Sam", new Student("Sam", 123456));
+etc
+where the first sam is the key, and the second sam with the number are the contents.
+```
+
+you can populate the dictionary in advance like its a list

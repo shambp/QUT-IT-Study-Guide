@@ -600,3 +600,111 @@ where the first sam is the key, and the second sam with the number are the conte
 ```
 
 you can populate the dictionary in advance like its a list
+
+## Week 5
+### encapsulation
+encapsulation is identifying what parts make up the external interface and what parts make up the internal implementaion, and subsequently cleanly seperating the two (this helps us achieve adequate abstraction).
+
+within our external interface we want everything needed for the external code to use the type, and we want details that do not restrict implementation
+
+without our internal implementation we want to worry about how our data is represented, stored, calculated etc.
+
+### designing for the future
+the biggest improvement to productivity that object oriented programming provides is through the ability to design reusable classes.
+
+A good class gets used a lot, a bad class is in turn used very little. you are HIGHLY unlikely to get the class right the first time, and will take you some reworks to truly make a good class. It is best to assume that you will have to change it later on and make the steps to ensure that your external interface allows you to. this is only feasible if you are able to adequately implement abstaction through boiling down your external interface to their simplest elements
+
+### type design
+every time you create a class you are designing a type (unless you are creating a static class)
+
+a properly designed type is:
+
+#### responsible for one thing
+that thing can be highly complex, or include a lot of details, but its purpose should be singular
+
+#### are complete
+every possible valid state can be represented and achieved through use of the public interface
+
+a complete type means you can use the public interface to create any possible value for that type, and to retreive relevent information about said type
+
+#### are efficient
+a type is efficient if the external interface allows operation son a type to be performed in the most efficient way. An inefficient type often leads to 'shadow' types and unnecessary duplicatoin in a system, reducing maintainability
+
+#### do not permit invalid values to exist
+says it on the tin, tldr dont let a type to be created in an incomplete state.
+
+### Properties
+properties are a c# exclusive feature, they have the semantics of fields, but are otherwise equivalent to methods.
+> this means that they can place limits on the operations that are performed, and they are not bound to the underlying representation
+
+
+### syntax to create a property
+
+### Getter
+properties have an access level (private etc), a type, a getter and/or a setter. The getter works like a method that takes no parameters and returns a value of the property type
+
+```
+public int idk
+{
+    get
+    {
+        return example.idk
+    }
+}
+```
+
+a method with only a getter is read only, and a getter can simply return a value from a private field. Or, alternatively it oculd calculate the value in some other way 
+
+### Setters
+the setter works like a method that takes a single parameter (which is always named value) and returns nothing
+
+```
+public int idk
+{
+    set
+    {
+        if (value == "" || value.Length > (max_length))
+        {
+            throw new ArguementException("invalid");
+        }
+        idk = value;
+    }
+    get
+    {
+        return idk;
+    }
+}
+```
+
+### auto-implemented properties
+as a shorthand for creating a private backing field and creating a property that reads from and writes to that field
+
+so instead of doing this
+
+```
+private string addr
+public string Address
+{
+    get
+    {
+        return addr;
+    }
+    set
+    {
+        addr = value;
+    }
+}
+```
+
+we can instead do this
+
+```
+public string Address {get; set;}
+```
+
+the compiler will create a blank backing field for you, this backing field has no name and cannot be referenced
+
+#### auto implement prop vs fields
+autoimplemented properties are functionally identical to fields, so why dont we use fields outright?
+
+fields cant be replaced with anything other than a field without breaking the ABI (application binary interface). However our properties can be converted from auto implement back to normal without breaking the existed code, even without recompiling the calling code.

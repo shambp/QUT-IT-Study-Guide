@@ -4,8 +4,5 @@ You are more than welcome to contribute to this site, whether that is through re
 
 [CAB201 - Programming Principles](https://shambp.github.io/QUT-IT-Study-Guide/CAB201)
 
-[CAB202 - Microprocessors and Digital Systems](https://shambp.github.io/QUT-IT-Study-Guide/CAB202)
-
-[CAB222 - Networks](https://shambp.github.io/QUT-IT-Study-Guide/CAB222)
 
 I aim to update this site every day on Thursday/Friday.

@@ -8,7 +8,7 @@ Learning about what an enterprise system is, covering the unit schedule and a fe
 ### Enterprises
 An enterprise is a grou pof people with a common goal and specific resources that help them achieve said goal, this can be money, people etc). 
 
-###Enterprise Systems
+### Enterprise Systems
 An information system that improves the functions of a business process, which rises the next question of...
 
 ### What is a Business Process?

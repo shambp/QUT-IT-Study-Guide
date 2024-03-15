@@ -21,4 +21,17 @@ Are business that supply products/services to other businesses, things like manu
 look its pretty simple really, find employee number and pay rate, read time card, pay them
 
 ## In Depth with Functional Areas of Operation
+### Marketing and Sales
+Sets product prices, promotes products, takes customer orders and provides general support to customers.
+
+### Supply Chain Management
+Develops production plans, orders raw materials, manugactures products and ships to customers.
+
 ### Accounting and Finance
+provides summaries of operational data in managerial reports, controls accounts, planning, budgeting and cash flow management.
+
+### Human Resources
+You know whta this is, dont be an idiot
+
+### Information Systems
+captures, processes and stores data to help influence decision making.

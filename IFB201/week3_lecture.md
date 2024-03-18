@@ -45,3 +45,22 @@ A value proposition is a key concept for organisations and has three areas of fo
  * Differentiating organisations from their competitors
 
 ## Process Mapping
+A process map is a management tool used to visually depict the flow of work and the steps and people involved in the business process, these are also commonly known as flowcharts or workflow diagrams.
+
+### Gathering Information for Process Mapping
+When gathering information for a process map, you can face a lot of difficulties, there are 3 ways to interview for them, ask them to interview themselves, a one on one interview and a group interview
+
+### Steps for Creating a Process Map
+just easier to post a photo
+![Steps for Creating a Process Map](https://github.com/shambp/QUT-IT-Study-Guide/assets/104829542/0c55300d-9fb3-43ba-bc39-3e5fbe6cd63d)
+
+### Process Map Symbols and Notations
+![symbols](https://github.com/shambp/QUT-IT-Study-Guide/assets/104829542/25be8986-6ea7-4dbe-b363-2e646fd45339)
+![notation](https://github.com/shambp/QUT-IT-Study-Guide/assets/104829542/955344ee-8cbf-4d31-92d6-5ef1ca61d6c3)
+
+## Analysing Business Processes
+### Identifying problems
+Things like lack of customer focus and lack of organisational focus
+
+# SECTION ON JOURNEY MAPPING
+honestly im just going to do the assignment on this and hope that i learn

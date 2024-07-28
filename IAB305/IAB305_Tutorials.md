@@ -118,7 +118,7 @@ To avoid failure in are strategies we should establish and follow a strategic pl
 
 ![alt text](image-4.png)
 
-==Used to identify and analyse an industries competitive forces, those being competition, new entrants to the industry, the bargaining power that suppliers hold, the bargaining power of the customer and the customers ability to find substitutes for your products.==
+`Used to identify and analyse an industries competitive forces, those being competition, new entrants to the industry, the bargaining power that suppliers hold, the bargaining power of the customer and the customers ability to find substitutes for your products.`
 
 ## Exercise 1
 

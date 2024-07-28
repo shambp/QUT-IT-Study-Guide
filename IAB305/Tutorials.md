@@ -12,7 +12,7 @@ This is mostly a setup week.
 
 ### General Business Structures
 
-#### There are 4 things to keep in mind when looking at the general structure of a business:
+### There are 4 things to keep in mind when looking at the general structure of a business:
 
  - Customer segments - specific groups of people in society that organisations support, or sell to with their products or services
     - eg school kids, adults, business workers and retirees are different customer segments for a company that wants to sell Bicycles or a company that wants to sell food
@@ -28,11 +28,11 @@ This is mostly a setup week.
 
 ![alt text](image.png)
 
-#### Why does a business need IS systems?
+### Why does a business need IS systems?
 
 To manage operations, communicate, for sales, marketing and decision making, customer and supplier intimacy and the creation of competitive advantages
 
-#### There are 4 types of information systems
+### There are 4 types of information systems
  
   - Transaction Processing Systems (TPS)
     - Collects, modifies and retrieves all transaction data
@@ -47,7 +47,7 @@ To manage operations, communicate, for sales, marketing and decision making, cus
   - Executive Information System (EIS)
     - Used by execs to generate reports for strategic decision making
 
-#### What goes into an information system?
+### What goes into an information system?
  
  - Hardware
     - Physical computer hardware
@@ -66,21 +66,21 @@ To manage operations, communicate, for sales, marketing and decision making, cus
     - Users
     - Support
 
-#### Static vs adaptive systems
+### Static vs adaptive systems
 
 ![alt text](image-1.png)
 
-#### The hierarchy of decision making
+### The hierarchy of decision making
 
 The higher someone is in an organistion, the more open ended, long term and infrequent a decision has to be made. We will be focusing on the highhest point of this.
 
 ![alt text](image-2.png)
 
-##### What is strategic decision making?
+#### What is strategic decision making?
 
 A strategic decision is one that is long term, Can be based on what competitors are doing and often considers changes in technology
 
-##### Why change?
+#### Why change?
 
 
 

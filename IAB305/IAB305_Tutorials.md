@@ -136,19 +136,19 @@ To avoid failure in are strategies we should establish and follow a strategic pl
 
 ![alt text](image-7.png)
 
-`ilustrates and assesses the current development of information systes within an org
+`ilustrates and assesses the current development of information systes within an org`
 
 ### McFarlands strategic grid
 
 ![alt text](image-8.png)
 
-Assess current and future applications within an org
+`Assess current and future applications within an org`
 
 ### Porters value chain analysis
 
 ![alt text](image-9.png)
 
-Analyses the value-adding of information within an organisation
+`Analyses the value-adding of information within an organisation`
 
 ## Exercise 1
 

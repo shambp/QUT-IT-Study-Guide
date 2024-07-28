@@ -20,10 +20,16 @@ There are 4 things to keep in mind when looking at the general structure of a bu
  - Customer channels - are **HOW** your customers get access to your product or service
     - eg ecommerce, brick and morter stores, mobile apps
 
- - Product/service supplites - organisations that supply products/services to organisations for use in internally running the business, supporting the business' creaiton and combing with other products/services for sale to the market
-    - 
- 
- -
+ - Product/service suppliers - organisations that supply products/services to organisations for use in internally running the business, supporting the business' creaiton and combing with other products/services for sale to the market
+    - eg manufacturers buying raw materials to fabricate into components and businesses buying those components to create their products
+
+ - Supply Businesses - similair to product suppliers, but these organisations business generates business for another org
+    - governments, sports assosciations.
+
+![alt text](image.png)
+
+
+
 ## Exercise 1
 
 ### Case Study:

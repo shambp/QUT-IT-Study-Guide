@@ -1,9 +1,29 @@
+
+
 # Week 1
 
 No tutorial
 
 # Week 2
 
+## Important Content
+
+This is mostly a setup week.
+
+#### General Business Structures
+
+There are 4 things to keep in mind when looking at the general structure of a business:
+
+ - Customer segments - specific groups of people in society that organisations support, or sell to with their products or services
+    - eg school kids, adults, business workers and retirees are different customer segments for a company that wants to sell Bicycles or a company that wants to sell food
+ 
+ - Customer channels - are **HOW** your customers get access to your product or service
+    - eg ecommerce, brick and morter stores, mobile apps
+
+ - Product/service supplites - organisations that supply products/services to organisations for use in internally running the business, supporting the business' creaiton and combing with other products/services for sale to the market
+    - 
+ 
+ -
 ## Exercise 1
 
 ### Case Study:

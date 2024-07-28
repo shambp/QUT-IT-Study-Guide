@@ -120,6 +120,36 @@ To avoid failure in are strategies we should establish and follow a strategic pl
 
 `Used to identify and analyse an industries competitive forces, those being competition, new entrants to the industry, the bargaining power that suppliers hold, the bargaining power of the customer and the customers ability to find substitutes for your products.`
 
+### Porters five force analysis
+
+![alt text](image-5.png)
+
+`Shows us how we can mitigate the 5 forces acting on our organisation`
+
+### Porters three generic strategies
+
+![alt text](image-6.png)
+
+`how external competitive forces are able to be harnessed`
+
+### Nolans stage model
+
+![alt text](image-7.png)
+
+`ilustrates and assesses the current development of information systes within an org
+
+### McFarlands strategic grid
+
+![alt text](image-8.png)
+
+Assess current and future applications within an org
+
+### Porters value chain analysis
+
+![alt text](image-9.png)
+
+Analyses the value-adding of information within an organisation
+
 ## Exercise 1
 
 ### Case study:

@@ -23,7 +23,7 @@ No tutorial
 >speed and one less card in their wallets. Using the app customers can also locate a mobile payment Starbucks near their location.
 
 
-### Question: List the data types stored in the information system used by Starbucks and explain what information the system provides.
+#### Question: List the data types stored in the information system used by Starbucks and explain what information the system provides.
 
 ## Exercise 2
 
@@ -43,7 +43,7 @@ No tutorial
 >basic cooking course and a basic hospitality course.
 
 
-### Question: Identiy objectives and explain to which of the four perspectives each ogjective belongs
+#### Question: Identiy objectives and explain to which of the four perspectives each ogjective belongs
 
 ## Exercise 3
 

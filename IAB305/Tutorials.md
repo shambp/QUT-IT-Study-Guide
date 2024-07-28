@@ -4,7 +4,7 @@ No tutorial
 
 # Week 2
 
-## Question 1
+## Exercise 1
 
 ### Case Study:
 
@@ -23,7 +23,9 @@ No tutorial
 >speed and one less card in their wallets. Using the app customers can also locate a mobile payment Starbucks near their location.
 
 
-## Question 2
+### Question: List the data types stored in the information system used by Starbucks and explain what information the system provides.
+
+## Exercise 2
 
 
 ### Case Study:
@@ -41,9 +43,9 @@ No tutorial
 >basic cooking course and a basic hospitality course.
 
 
-### Identiy objectives and explain to which of the four perspectives each ogjective belongs
+### Question: Identiy objectives and explain to which of the four perspectives each ogjective belongs
 
-## Question 3
+## Exercise 3
 
 ```
 Read the case study from the text book (lame)

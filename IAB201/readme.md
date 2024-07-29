@@ -1,4 +1,6 @@
 hey, there is nothing here.
 
 
-[You might be looking for this instead.](https://shambp.github.io/QUT-IT-Study-Guide/IAB201/IAB201_Tutorials)
+[Weekly Content](https://shambp.github.io/QUT-IT-Study-Guide/IAB201/IAB201_Content)
+
+[Weekly Tutorial](https://shambp.github.io/QUT-IT-Study-Guide/IAB201/IAB201_Tutorials)

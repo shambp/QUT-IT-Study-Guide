@@ -1,4 +1,4 @@
-# **This unit was dropped before completion, I prefer data over this i am too stupidThis is good for basics, however is depreciated and is missing content**
+# **This unit was dropped before completion, I prefer data over this i am too stupid. This is good for basics, however is depreciated and is missing content**
 
 # Week 1
 ## Counting binary

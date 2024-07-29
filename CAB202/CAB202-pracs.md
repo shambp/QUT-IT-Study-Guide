@@ -1,3 +1,5 @@
+# **This unit was dropped before completion, I prefer data over this i am too stupidThis is good for basics, however is depreciated and is missing content**
+
 # Week 1
 ## Counting binary
 unlike humans who count within base 10 (0-9); computers count in base 2, or binary (as discussed previously). Which brings the question of how do we count above 1?

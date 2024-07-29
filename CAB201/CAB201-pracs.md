@@ -1,3 +1,7 @@
+# **This unit was dropped before completion, I prefer data over this i am too stupid**
+# **This is good for basics, however is depreciated and is missing content**
+
+
 # week 1 prac
 ## boiler plate
 get extremely use to

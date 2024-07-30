@@ -113,6 +113,18 @@ Card(Book is read by Person) = (0,1)
 
 Meaning that a person can read up to 2 books at any given time, while a book can only be read by either noone or one person at a time.
 
+### Entity types and reference modes
+
+Information systems can only use facts as stated - people can misinterpret facts (see politcal argument ever)
+
+The description of an entity MUST specify the entity type being referred to
+
+to illustrate.
+
+- Lee is located in '10b'
+    - The patient james is located in the ward '10b'
+        - The patient with fname james is located in the ward with name '10b'
+
 ## What is information?
 
 Information is data + semantics. With data being the items stored in our system, and the semantics being the meaning behind the data.
@@ -128,8 +140,26 @@ Database. If you dont remember IFB105 idk what to tell you pookie
 
 A fact that can be explained in a sentence
 
-```Stevie wonder plays keyboard```
+```Stevie wonder plays keyboard.```
 
 If we want to express that explicitly.
 
-```Person Stevie Wonder plays instrument keyboard.\Concept person plays entity instrument```
+```Person Stevie Wonder plays instrument keyboard. - Concept person plays entity instrument.```
+
+It is a simple statement about the domain.
+
+## Predicates
+
+Whilst elementary facts assert that our entities play roles within our systems, predicates can be used to specify roles. Predicates are expressed via a sentence.
+
+### Surface structures vs deep structures
+
+Where the arity of our predicates are greater than one, we can read them in multiple ways (binary or greater)
+
+![alt text](image-1.png)
+
+`Mary works in sales | Sales employs Mary`
+
+whilst they have different surface structures, they share the same deep structure.
+
+If our predicate was Unary, it would only have a surface structure.

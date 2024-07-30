@@ -163,3 +163,7 @@ Where the arity of our predicates are greater than one, we can read them in mult
 whilst they have different surface structures, they share the same deep structure.
 
 If our predicate was Unary, it would only have a surface structure.
+
+## Keep this in mind
+
+![alt text](image-2.png)

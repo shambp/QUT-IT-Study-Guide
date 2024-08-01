@@ -73,6 +73,7 @@ The data types that are stores within this informaiton system are as follows:
         - Upskilling staff
         - Move away from manual order taking systems
         - Broaden menu
+        - Improve customer satisfaction
         - Drive weekly sales
 
 Four perspectives
@@ -80,23 +81,50 @@ Four perspectives
     - Upskilling staff
         - Investing in staff learning
     - Moving away from manual order taking system and moving towards a Point of Sales (POS) system
-
+        - This new system allows floor staff to spend more time on the customer and less time communciating orders to the kitchen
 
 - Internal Business
-    - 
+    - Broaden menu
 
 - Customer Perspecitve
-    - Broaden menu
-        - Expansion of menu and improved efficiency improve customer experience and allow the restuarant to serve a broarder audience
+    - improve customer satisfaction
 
 - Financial perspectives
+    - Drive weekly sales
 
 ## Exercise 3
 
 
-> Read the case study
+> Read the case study, I am not putting that in here its a wall of text
 
 
 ## Discuss in group the following
  - Use Porter's five forces to conduct strategic analysis
+    
+    - Competitive rivalry
+        - Map My Fitness (Under Armour)
+            - Plethora of user data with a refusal to sell
+        - Gatorade
+            - Smart water bottle providing optimal hydration
+
+    - Threat of new entrants
+        - 
+
+    - Buyer power
+        - 
+
+    - Supplier power
+        -
+
+    - Threat of substitution
+        - 
+
+    - Threat of substitute products
+        - 
+
  - Discuss what competitive strategies Nike pursued
+
+    - Build customer loyalty
+        - By creating an extensive ecosystem, Nike aimes to "lock" their customers into using their products over everyone else. As all of their devices work seamlessly with one another.
+        - Nike created their own fitness apps to compete with MapMyFitness.
+        - Focus marketing on athletes

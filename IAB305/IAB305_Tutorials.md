@@ -20,6 +20,35 @@
 
 #### Question: List the data types stored in the information system used by Starbucks and explain what information the system provides.
 
+The data types that are stores within this informaiton system are as follows:
+
+
+- Rewards card detail
+    - Rewards card number
+    - Current amount of points
+    - Star count
+            - Allows us to know how many points the customer has for when they go to use their points. Without this info the customer is unable to properly use their rewards points
+- Customer details
+    - Name
+    - Date of birth?
+    - Customer number (identifying customers by name would be archaic)
+        - Allows us to link purchases up to a customer, giving us options to 
+
+- Payment information
+    - Card number
+    - Expiry
+    - Security code
+
+- Store details
+    - Store location
+    - If store is participating in mobile payment
+    - Current inventory
+
+- Previous order details
+    - Helps with strategic decision making - understanding what the customer wants to use
+
+- Transaction history
+
 ## Exercise 2
 
 
@@ -30,7 +59,6 @@
 > Shortly after taking over the restaurant, management of the ski resort held a day-long meeting with all the employees
 > of the restaurant to discuss the future of the ski resort and the new strategic plans for it. At the end of this meeting,
 > management and employees agreed that they need to improve customers’ satisfaction and improve weekly sales.
-> Previously, all orders, payments, reservations etc. were manually done and the menu was very limited. Therefore, the
 > average time to take an order and the average time to prepare an order were too long. They agreed that they should
 > improve them and increase number of menu items. The managers realised that they may need to implement a new
 > restaurant operating system to be able to achieve those objectives. Besides a new system, managers also decided to
@@ -38,12 +66,35 @@
 > basic cooking course and a basic hospitality course.
 
 
-#### Question: Identiy objectives and explain to which of the four perspectives each ogjective belongs
+#### Question: Identiy objectives and explain to which of the four perspectives each objective belongs
+
+- Objectives
+    - Improve efficiency
+        - Upskilling staff
+        - Move away from manual order taking systems
+        - Broaden menu
+        - Drive weekly sales
+
+Four perspectives
+- Learning and growth
+    - Upskilling staff
+        - Investing in staff learning
+    - Moving away from manual order taking system and moving towards a Point of Sales (POS) system
+
+
+- Internal Business
+    - 
+
+- Customer Perspecitve
+    - Broaden menu
+        - Expansion of menu and improved efficiency improve customer experience and allow the restuarant to serve a broarder audience
+
+- Financial perspectives
 
 ## Exercise 3
 
 
-> Read the case study from the text book (lame)
+> Read the case study
 
 
 ## Discuss in group the following

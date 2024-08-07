@@ -167,3 +167,7 @@ If our predicate was Unary, it would only have a surface structure.
 ## Keep this in mind
 
 ![alt text](image-2.png)
+
+# Week 3
+
+Is a consolidation week, no new content.

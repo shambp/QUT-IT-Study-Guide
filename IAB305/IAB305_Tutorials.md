@@ -128,3 +128,110 @@ Four perspectives
         - By creating an extensive ecosystem, Nike aimes to "lock" their customers into using their products over everyone else. As all of their devices work seamlessly with one another.
         - Nike created their own fitness apps to compete with MapMyFitness.
         - Focus marketing on athletes
+
+# Week 3
+
+## Exercise 1 - Hotel Ibis
+> Ibis (corporately styled, ibis) is an international hotel company owned by AccorHotels. Ibis hotels are offering a 24-
+> hour reception. Rooms provide a bathroom and shower room, a desk, a double or two single beds, wardrobe space,
+> and international and local TV channels. The hotel sometimes includes a restaurant or bar offering breakfast from
+> 4:00am-12:00pm, and in some hotels a 24-hour snack menu is offered
+
+> Airbnb is an online marketplace for arranging or offering lodging, primarly homestays or tourism experiences, company does not own any of the real estate listings, nor does it host events, it acts as a broker, receiving commissions fromeach booking.
+
+Identify at least 4 differences between their business models
+- Customer segments
+    - Ibis is Segmented
+        - They serve a wide range of clients but they all have the same need. somewhere to stay
+    - Airbnb is also segmented - Maybe niche market?
+
+- Value Propositions
+    - Ibis offers
+        - 24 hour reception
+        - serviced rooms
+        - customizable room options
+        - broad range of tv channels
+        - restaurants and eateries
+        - consistency between all ibis establishments
+    - Airbnb offers
+        - A variety of different stays in unique places
+        - the oppurtunity to "live like a local"
+        - the ability to list your property as a hotel
+
+- Channels
+    - Ibis
+        - Online booking
+        - asking about stays on front desk
+    - Airbnb
+        - Online booking
+
+- Customer Relationships
+    - Ibis
+        - Self Services
+            - More often than not the customer will book online. in which they are left to choose their room, the term of their stay etc.
+    - Airbnb
+        - Automated Services
+            - both listing and registering a stay is done independantly
+
+- Revenue Streams
+    - Ibis
+        - Leasing fee
+    - Airbnb
+        - Brokerage fees
+            - Takes a fee off the top when a lodger stays in a location
+
+- Key resources
+    - Ibis
+        - Buildings
+        - Staff (both customer facing and support staff)
+    - Airbnb
+        - Human (people listing their homes)
+        - Staff (Mostly support staff)
+        - IT (app)
+
+- Key activites
+    - ?
+
+- Key Partnerships
+    - Ibis
+        - Catering companies
+            - To provide food to on-site restaurants
+        - Local tourism firms
+            - to promote eachother to their customers
+        - Laundry/cleaning companies
+        - real estate
+    - Airbnb
+        - Owners of the homes that they put up for rent
+
+- Cost Structure
+    - Ibis
+        - Fixed Cost
+            - the same room in the same place will always be priced the same
+    - Airbnb
+        - Variable cost
+            - Every single listing is different with the home owner dictating the price 
+
+## Exercise 2 - QUT Business Model
+
+> Draw on your knowledge to build a business model canvas for QUT
+
+- Not enough time skull
+
+- Where I got up to
+
+![alt text](image-21.png)
+
+
+## Exercise 3 - Amazon Go
+
+Compare Amazon Go's business model with Woolworths
+
+- Same customer segment
+
+- Value propositions
+    - Woolies has easy to access grocery products
+    - Amazon builds on this by developing and maintain computer vision, develop and maintain app
+
+- Key Resources
+    - Woolies has products, stores and employees
+    - Amazon bulds on this with all of their IT and IOT infrastcutures

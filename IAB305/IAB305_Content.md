@@ -15,7 +15,7 @@ This is mostly a setup week.
 
  - Customer segments - specific groups of people in society that organisations support, or sell to with their products or services
     - eg school kids, adults, business workers and retirees are different customer segments for a company that wants to sell Bicycles or a company that wants to sell food
- 
+
  - Customer channels - are **HOW** your customers get access to your product or service
     - eg ecommerce, brick and morter stores, mobile apps
 
@@ -245,8 +245,73 @@ Is a colour coded capability model, which allows us to easily illustrate the cur
 
 ## Capability-based analysis and planning
 
+- Originally designed for military and government projects
+- Now popular for IS system and strategy plannig
+- A business capability is decribed by more than just the people perspective; it includes the process and physical perspective.
+
 ## Capbility mapping
 
 ## Capability design
 
 ## Capability to system architecture
+
+## Understanding business models
+
+- Retailer
+- Manufacturer
+- Fee for service
+    - Tradies
+- Subscription
+    - Netflix
+- Freemium
+    - WinRar
+- Bundling
+    - Insurance companies
+        - Discount if you buy more than one thing
+- Market Place
+    - Amazon
+- Affiliate
+    - Influencers
+-Razor Blade
+    - Razors, printers
+
+## Building a business model
+
+- What does the company do?
+- How does the company uniquely do it?
+- How does the company get paid?
+- What are the key resources
+- What are the costs?
+
+- Analysis
+   - Identify where to compete
+      - Porter's 5 forces
+   
+-Planning
+   - How do we compete?
+
+- What changed?
+   - Make the business model
+
+## The business model canvas
+
+![alt text](image-20.png)
+
+### Customer Segments
+
+- Mass Market
+   - Represents a broard demographic for society
+- Niche Market
+   - Focused demographic
+- Segmented
+   - A range of customer decomposed into smaller gruops that can be based on age, income etc
+- Diversified
+   - Covers multiple degments with different needs and characteristics
+- Multi-sided platform market
+   - To promot consistent experience for customers, some companies will serve mutually dependent customer segments. eg afterpay.
+
+### Value propositions
+
+A bundle of procucts or services that create value for specific customer segments
+
+### Channels

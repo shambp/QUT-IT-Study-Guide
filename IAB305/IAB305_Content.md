@@ -148,3 +148,105 @@ To avoid failure in are strategies we should establish and follow a strategic pl
 ![alt text](image-9.png)
 
 `Analyses the value-adding of information within an organisation`
+
+# Week 3
+
+## What are Business Capabilities?
+
+Describes **What** a business does, not how or why. Our capabilities can realte to other aspects of a business, as without our resources, value streams and information we cannot create capabilities.
+
+### Examples
+
+- Information security management
+   - An IT department provides information security managemetn
+
+- Product development
+   - A marketing department develops and launches products
+
+and so on.
+
+## Capability Analysis
+
+The purpose of capability analysis is to identify strengths, weaknesses, identify how to align with strategy and to plan our scope + prioritizing.
+
+- What are out strongest and weakest capabilities?
+- Which capabilities provide strategic differentiation?
+- Where should we invest our resources
+- Where can technology add more strategic value?
+- Where can tech be used to lower cost?
+- What business capability is needed?
+
+We use a capability model that can define what an organization must be able to do to successfully execute its business model. It is an abstract and compact representation of the organizations. Is independant of the org's structure, processes etc.
+
+## Mapping Business Capabilities
+
+![alt text](image-10.png)
+
+There are 2 levels of a capbility map. WE start with a very basic map.
+
+![alt text](image-11.png)
+
+![alt text](image-12.png)
+
+And then move towards more customer facing capabilities.
+
+## Capability Map levelling
+
+- The bluieprint of capabilities for a given business
+- Multiple levels (usually no more than 6)
+
+![alt text](image-13.png)
+
+- Each level provides deeper insight where appropriate level of analysis desired
+- 1-3 is used for high level planning and business analysis
+- level 3 onwards is used for IT analysis (used as input for requirements analysis)
+
+![alt text](image-14.png)
+
+## Value Streams and Capabilities
+
+### What is a value stream?
+
+- Is a visual representation of **one** of an organsiation's primary business activities
+- The set of end-end activities that deliver value to external and internal takeholders
+- outlines HOW value is created and delivered to stakeholders.
+
+![alt text](image-15.png)
+
+## Capability Assessment
+
+There are 6 parts of a capability assessment:
+
+- Identify strengths
+- Understand weakness
+- Identify limitations
+- New capabilities
+- Prioritize
+- Aid planning
+
+- Either:
+   - Complete a high level assessment of all business capabilities and select those that may need attention
+   - Only select those business capabilities that we deem as the most important
+- Then create a standard unit of measure, which is usually a 3 to 5 point scale.
+- Identify who is to be included in the assessment
+- Perform the assessment
+
+![alt text](image-16.png)
+
+![alt text](image-17.png)
+
+## Heat Mapping Capabilities
+
+Is a colour coded capability model, which allows us to easily illustrate the current score of a capabilityS
+
+![alt text](image-18.png)
+
+![alt text](image-19.png)
+
+## Capability-based analysis and planning
+
+## Capbility mapping
+
+## Capability design
+
+## Capability to system architecture

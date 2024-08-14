@@ -171,3 +171,40 @@ If our predicate was Unary, it would only have a surface structure.
 # Week 3
 
 Is a consolidation week, no new content.
+
+# Week 4
+
+![alt text](image-16.png)
+
+## Domains
+
+At any given time, the state of a doman consistes of:
+
+- Objects
+- Relationships
+- A set of concepts that we use to classify them with.
+
+Eg: We can have our entities of person and vehicle with the relationship of drives.
+
+## Conceptual Modelling Part 2
+
+This lecture takes a focus on conceptual modelling langauges. Namely Entity-Relationship Modelling (ER) and Unified Modelling Language (UML)
+
+### ER
+
+![alt text](image-17.png)
+
+#### ER Language variants
+
+There are a multitude of different notation sets in use for ER. With no standard in place. We will be using the Ellis-Barker (also known as just Barker) notation, which is one of the more popular options
+
+#### Barker Notation
+
+Barker is advantagous for us as it:
+
+- Wasa designed for easy understandability
+- Avoids the use of technical components that have no relevance to/may confuse a business user
+- Provides limited and consistent set of sumbols
+- Provides a complete, concise, clear and unambigious statement of informtion requirements.
+
+#### Syntax

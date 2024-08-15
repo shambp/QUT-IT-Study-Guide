@@ -197,3 +197,45 @@ A family tree application may be considered an example of an information system.
     - Disallowed
         - Multi Spouse relationship (without proper context)
         - Duplicate entries
+
+
+# Week 4
+
+## Question 1 - Model Translation
+
+![alt text](image-27.png)
+
+Course always needs to be taught by an employee. But an employee doesnt nescesarily need to teach a course. An employee can teach many Courses
+
+![alt text](image-28.png)
+
+An accounts is always held by an individual. But an individual hodling an account is optional. Many accounts can be held by a singular individual.
+
+## Question 2 - Text Description to Model
+
+Draw information models using Barker entity relationship notation to represent the following scenario statements
+
+- A salesperson is always employed within a single sales region; a sales region can be staffed with many salespersons
+
+    ![alt text](image-29.png)
+
+- A flight must always be from one airport and must always be to an airport (which may or may not be the same airport); an airport can be the departure airport or the arrival airport for a flight
+    - Honestly not too sure about htis one, check the answers.
+
+    ![alt text](image-30.png)
+
+- An actor can play roles in many films; a film can have many actors palying roles
+
+![alt text](image-31.png)
+
+## Question 3 - From Description to Model
+
+Draw an ER model with Barker notation to model the information found in the following description.
+
+- A university consists of a number of faculties. Each faculty offers several
+courses. A number of units make up each course. Students enrol in a
+particular course and take units towards the completion of that course. Each unit
+is taught by a lecturer from the relevant faculty, and each lecturer also tutors a
+group of students
+
+![alt text](image-32.png)

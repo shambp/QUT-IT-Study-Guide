@@ -198,13 +198,71 @@ This lecture takes a focus on conceptual modelling langauges. Namely Entity-Rela
 
 There are a multitude of different notation sets in use for ER. With no standard in place. We will be using the Ellis-Barker (also known as just Barker) notation, which is one of the more popular options
 
-#### Barker Notation
+### Barker Notation
 
 Barker is advantagous for us as it:
 
-- Wasa designed for easy understandability
+- Was designed for easy understandability
 - Avoids the use of technical components that have no relevance to/may confuse a business user
 - Provides limited and consistent set of sumbols
 - Provides a complete, concise, clear and unambigious statement of informtion requirements.
 
+Barker Notation is as follows
+
+- We denote a relationship with a line, having
+
 #### Syntax
+
+- An entity type is rounded rectangle with the name at the top and tha attributes at the bottom.
+
+![alt text](image-18.png)
+
+And can use a set of markers to help differentiate the attributes
+
+![alt text](image-19.png)
+
+- We denote a relationship with a line, having an entity type at each end
+- The line is composed of two halfs, each half referring to the role the adjacent entity type plays in the realtionship
+    - A solid line indicates mandatory
+    - A dotted line indicates optional
+    - Cardinality is denoted by the presence of a 'Crows Foot' notation joining the line to the entity
+
+![alt text](image-20.png)
+
+    - There are 16 possible relationship combinations
+
+![alt text](image-21.png)
+
+![alt text](image-22.png)
+
+##### Understanding solid to dotted lines
+
+![alt text](image-23.png)
+
+Here we can see that Hire agreements are required for vehicles. But we don't own every car, therefore not every vehicle requires one.
+
+A hiring agreement cannot exist without a vehicle. But a vehicle can exist without a hiring agreement
+
+##### Understanding Many to Many relationships
+
+To make a many to many relationship more readable. We can notate it like this to help improve clarity:
+
+![alt text](image-24.png)
+
+#### Cardinality Cheat-Sheet
+
+![alt text](image-25.png)
+
+### Similarity vs Specificty
+
+In real life we can encounter exampels of objects that share characterisitcs with others. But have a few specific differences that make them distinct from one another. For example, All dogs are mammals. but not all mammals are dogs.
+
+### Supertypes and subtypes
+
+Supertypes are a generic entity type related to one or more entity sub-types and contains common characteristics.
+
+Subtypes contain all of the characteristics of the super type alongside some unique characteristics.
+
+#### Subtype Rules
+
+![alt text](image-26.png)

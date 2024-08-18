@@ -224,6 +224,10 @@ Draw information models using Barker entity relationship notation to represent t
 
     ![alt text](image-30.png)
 
+    - I was partially correct. Needs to look like this:
+
+    ![alt text](image-33.png)
+
 - An actor can play roles in many films; a film can have many actors palying roles
 
 ![alt text](image-31.png)

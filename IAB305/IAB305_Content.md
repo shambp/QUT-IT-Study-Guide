@@ -315,3 +315,171 @@ Is a colour coded capability model, which allows us to easily illustrate the cur
 A bundle of procucts or services that create value for specific customer segments
 
 ### Channels
+
+# Week 4
+
+## The target operating model
+
+### Defining target operating models
+
+A model that demonstrats where people, technology and business processes meet.
+
+- The TOM allows a company to apply strategy to it's operations.
+
+- It represents at a high level how a company can be efficiently organised to deliver the strategy through its operations
+
+- It allows common understanding by visualising the organisation across the value chain as every important business activity is represented
+
+- It is a blueprint of how the org will meet the vision statement
+
+- Provides a core view of capabilities, internal and external factors/drivers
+
+- Visualises the organisation from different perspectives throughout our value chain
+
+- represents all of the **significant** business activites, with a focus on people, process and tech
+
+- shows Org and functional (is) structures
+
+![alt text](image-22.png)
+
+- Here is an example
+
+![alt text](image-23.png)
+
+### Logical systems architecture
+
+Logical systems architectures illustrats the IS components within a target operating model, it focusses on conceptual, implementation free details
+
+- Can indicate logical distribution of systems components across a network
+
+- Logical systems architecture consists of high level IS component representations
+
+- The components are used in target operating models to illustrate where business processes are supported by IS components
+
+- This consists of 5 layers
+   - Client
+      - Where the user interacts with the application.
+   - Access
+      - In this tier the user accesses the business network, acts as an intermediate for communication between presentation and client tiers.
+   - Presentation
+      - Provides access to users, allows input/output functions, system control functions
+   - Logic Service
+      - Logical processing is done here, things like ERP, Emails, Business rules/calcs are done as well
+   - Data
+      - Layer is persistent storage where data for the logic layer is kept
+
+![alt text](image-24.png)
+
+### Physical systems architecutre
+
+Contains implementation details (network types, middleware services, dbms etc). Generally renders the platform and infrastucture details with key system components
+
+- These details can be added once logical systems architecture are in complete/stable shape
+
+- The purpose of logical and physical architecture is to illustrate and document the respcetive logical and physical components of a system, to clearly show how those component elements relate to one another
+
+- How can we show our target operating model which represents not only our logical IS components but also our business processes + structure
+
+- models take many forms and appearances
+
+### Intro to FMC modelling
+
+FMC is used when we want to illustrate the logical components that make up a system and what business models represent
+
+look im gonna skip most of this I dont relaly care when fmc was made and by whom
+
+![alt text](image-25.png)
+
+Looks like it follows the 5 layers in logical systems architecture. With client at the top etc
+
+### FMC Notation
+
+![alt text](image-26.png)
+
+![alt text](image-27.png)
+
+![alt text](image-28.png)
+
+### FMC  design considerations
+
+- Business model
+   - Scope
+   - (sub)Capabilities
+
+- FMC
+   - User roles
+   - systems components
+   - Capability interaction
+   - Bm design principles
+
+- Ensure that text is horizontal
+
+- It is possible to use different fonts and sizes in labelling
+
+- Icons and pictures can be used to supplement shapes for clarity
+   - MUST be clearly labelled
+
+![alt text](image-29.png)
+
+### TOM to systems architecture
+
+- Steps to build an enterprise architecture using FMC
+   - Identify scope fo the model
+      - identifies different parts of the business model aligned to system components that can function independently from the whole system
+   - Identify Business capabilities
+      - business capability analysis identifies those required to support a scope
+   - Identify external roles/systems
+      - those that the business does not own but needs to create it's value proposition
+      - external IS systems do not bleong to the business but must be connected to provide its service
+   - Which high level business requirements require IS support?
+   - which functions require shared information (data)
+      - business functions that will need to provide access to data can be identified by examining the value stream/capability alignments
+
+We can illustrate this using the folowing blocks:
+
+![alt text](image-30.png)
+
+
+![alt text](image-31.png)
+
+### Business scopes to systems
+
+Business scopes divide a business model and provide all the elements to form a distinct and potentially standalone business
+
+- Business scopes are generally mapped into a whole system
+
+- Different parts of the business scope are addressed for implementation
+
+- One of more business scoped can be mapped into one system
+
+![alt text](image-32.png)
+
+### Business capability to system components
+
+- Within each scope are business capabilities which are logical parts of the business' functionality
+
+- They are implemented through business services, processes, rules and software systems
+
+- A business capability should be refined into several systems components, each providing specific funtions for supporting the capability
+
+- A business capability can be supported by one or more systems components and vice versa
+
+![alt text](image-33.png)
+
+- Some capabilities may involve accessing external systems which are not part of the system that implements the business model
+
+- These external systems are needed in the architecture model because they illustrate how the system operates in full
+
+- FMC has specific indication for system components that are outside the scope of the system being modelled
+
+![alt text](image-34.png)
+
+### Partner roles to user roles
+
+- Partner roles, applying to both organisations and individuals
+   - These roles are mapped into user roles which apply to one or more individuals who are assigned to these roles as part of systems access
+
+- User roles have access perms for different components of a system
+   - They are allowed by the system to access to the components and any access points + storage elements
+
+![alt text](image-35.png)

@@ -483,3 +483,123 @@ Business scopes divide a business model and provide all the elements to form a d
    - They are allowed by the system to access to the components and any access points + storage elements
 
 ![alt text](image-35.png)
+
+# Week 5
+
+## Intro to project management
+
+Why manage implementation for a solution?
+
+- Provides direction
+- Governance controles
+- Control budget and resources
+- Define roles and responsibilities
+- Control task activity timelines
+
+What happens when this isnt managed
+- Scope can shift outwards
+- Go over budget
+- Missing deadlines
+- Waste resources
+- Project failures
+
+### Prince2
+
+PRojects In Controlled Environments is a process based approach for PM that provides and easy to tailor and a scaleable method to management. This method is a common standard for PM in the UK and is practicied worldwide.
+
+The principles of prince2 is as follows:
+- Continued business justification
+- Learn from experience
+- Defined roles and responsibilites
+- Manage by stages
+- Mange by exception
+- Focus on products
+- Tailor to suit the project environment
+
+Prince is a water fall methodology, with stages being carried one after the other
+
+![alt text](image-36.png)
+
+#### Starting up a prince2 process
+
+A quality start up process lays the foundation for a successful project. This starts with the project brief:
+
+- Reviewed by the project board
+- Is extended over a period of time, giving us the opputunity to refine it into a project initiation document.
+
+- This should accurate reflect the project mandate + the requrements for both business and users
+- KEEP IT BRIEF
+
+## Project scope
+
+- The scope is part of the project planning and involves determining = documenting a list of specific project goals, deliverables, tasks and deadlines. It aims to communicate key informatoion about the project and ensure that stakeholders have the correct understanding
+
+- The scope should be defined at the very start of planning and be authorised by the project board
+
+- Only when scope is managed properly can prince2 propperly function
+
+![alt text](image-37.png)
+
+- we use a scope statement to confirm common understanding of the project scope, this typically includes:
+   - product/service requirements
+   - summary of all deliveralbes
+      - We use the SMART system
+         - Specific
+         - Measurable
+         - Achievable
+         - Relevant
+         - Time bound
+   - costs + schedules
+   - constraints + success criteria
+
+- all changes need to be managed
+   - if we do not manage scope, scope creep can appear
+
+## Project roles & responsibilities
+
+- Project Board
+   - Consists of
+      - The executive
+         - Is in charge of the business amtter, the one who takes responsibility for the project
+      - Senior user
+         - individual/team of experts, reflects users perspectives
+      - Senior suppliers
+         - This can be one or more people, protect the needs of the suppliers
+- Project manager
+   - plans the project
+   - defines team responsibilities
+   - monitors progress
+   - initiates corrective action
+   - reports
+   - participates in control
+   - facilitates day to day management
+- Project assurance
+   - Assurance responsibilites attributed to board members to form a system of checks and balances
+      - the exec
+         - responsible for the financial performance of the business
+      - senior user
+         - responsible for system assurance
+      - senior suppliers
+         - resopnsible for inbound and outbound logistics
+- Change authority
+   - is handled by the project team manager
+   - is responsible for
+      - reviewing requests for changes and off specification related ot a project
+   - can delegate repsonsibilities according to change required
+- Project support
+   - mentors
+   - risk analysts
+   - admin support
+- Team manager
+   - can be performed by PM
+
+## Project planning
+
+
+
+## PM planning techniques
+
+
+
+## Work breakdown structures
+

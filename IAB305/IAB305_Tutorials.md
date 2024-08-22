@@ -235,3 +235,9 @@ Compare Amazon Go's business model with Woolworths
 - Key Resources
     - Woolies has products, stores and employees
     - Amazon bulds on this with all of their IT and IOT infrastcutures
+
+# Week 4
+
+sick - ceebs catching it up :)
+
+# Week 5

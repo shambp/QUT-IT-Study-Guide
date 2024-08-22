@@ -595,11 +595,71 @@ A quality start up process lays the foundation for a successful project. This st
 
 ## Project planning
 
+The plan answers the Who, What, When, Why and How.
 
+- We can only accurately plan in detail a short time in advance.
 
-## PM planning techniques
+- There are three levels of planning
+   - Project planning
+      - High level, direction level by the project board
+   - Stage plan
+      - created at each stage, detailed by management level
+   - Team plan
+      - plan the work in work pacakges, delivering level
 
+### Project planning process
 
+![alt text](image-38.png)
 
-## Work breakdown structures
+- Design plan
+   - format the planning document, using prince2 templates
+- define and analyce the products
+   - prince uses a product based planning technique
+   - what the project delivers
+   - create a product breakdown structure
+      - break main product down into major products
+      - break each major product down into further products
+      - products described using nouns or outcome in past tense
+- identify activities and dependencies
+   - using Product Breakdown Structure (PBS)
+   - ![alt text](image-40.png)
+      - Product description (PD)
+         - Document that details nature, purpose, function and apperance of product
+         - who uses product
+         - supply of products
+         - level of quality required
+         - people or skills required to produce
+      - Product Flow Diagram (PFD)
+         - show how products relate to each other + sequence of production
+         - ![S](image-39.png)
+- Prepare Estimates
+   - develop a good resource requirements list
+   - PM must take cost estimates seriously if they want to complete projects within budget constraints
+   - it is important to know the types of ocst estimates, how to prepare cost estimates and typlical problems assosciated with IT cost estimates
+- Prepare schedules
+   - the work breakdown structure (WBS) is presented here as a technique
+   - using the PBS and WBS to plan a project
+      - PBS is developed first so that the project outcomes are clearly understood.
+      - the WBS is used to organise the construction of products as a set of tasks or work packages
+         - wbs packages simplify resource and team planning
+         - wbs is a details delivery plan used to allocate tasks to teams and individuals
+![alt text](image-41.png)
+- Document the plan
+   - prepaire the PID
+   - pid documentation is put together at the end of the intiation stage
+   - you get it
+
+## Gantt Charts
+
+## Resources and constraints
+
+## Resource levelling
+
+## Project costing
+
+## Project governance
+
+## PRINCE2 process model
+
+## Closing a project
 

@@ -266,3 +266,9 @@ Subtypes contain all of the characteristics of the super type alongside some uni
 #### Subtype Rules
 
 ![alt text](image-26.png)
+
+# Week 5
+
+This is another consolidation week. 
+
+# Week 6

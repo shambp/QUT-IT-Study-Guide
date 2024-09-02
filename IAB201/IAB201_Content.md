@@ -272,3 +272,70 @@ Subtypes contain all of the characteristics of the super type alongside some uni
 This is another consolidation week. 
 
 # Week 6
+
+# Conceptual Schema Design Procedure
+
+- Transform familiar examples into elementary facts and apply quality checks
+- Draw the fact types and apply a population check
+- Check for entity types to be combined and note any arithmetic derivations
+- Add uniqueness constraints and check arity (length) of fact types
+- Add mandatory role constraints and check for logical derivations
+- Add value, set comparison and subtyping constraints
+- Add other constraints and perform final checks
+
+## Add uniqueness constraints and check the arity of fact types
+
+I am just going to paste the ones that I feel are important to remember
+![alt text](image-34.png)
+
+![alt text](image-35.png)
+
+![alt text](image-36.png)
+
+## Add mandatory role constraints and check for logical derivations
+
+Ditto for previous section
+
+![alt text](image-38.png)
+
+![alt text](image-39.png)
+
+![alt text](image-37.png)
+
+## Add Value, set comparison and subtyping constraints
+
+![alt text](image-40.png)
+
+![asdf ](image-41.png)
+
+![alt text](image-42.png)
+
+![alt text](image-43.png)
+
+![alt text](image-44.png)
+
+![alt text](image-45.png)
+
+## Add other constraints and perform final checks
+
+Transofrm ORM to ERD
+
+![alt text](image-47.png)
+
+handy cheat sheet
+
+![alt text](image-48.png)
+
+
+![alt text](image-49.png)
+The little bar indicates mandatory role
+
+![alt text](image-50.png)
+an employee can be allocated either a bus pass or a parking bay, not both
+
+# SUPER SUPER IMPORTANT
+
+![alt text](image-46.png)
+# Week 7
+
+Consolidation :)

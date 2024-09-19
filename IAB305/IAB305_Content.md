@@ -659,7 +659,94 @@ The plan answers the Who, What, When, Why and How.
 
 ## Project governance
 
+- Is a set of policies, functions, processes, procedures and responsiblites that define establishment, management/control, programmes and portfolios
+- A framework for how decisions are made in a project
+- Identifies the activites that the organization does
+   - And who is responsible
+- This includes
+   - Policies
+   - Regulations
+   - Functions
+   - Processes
+   - Procedures
+   - Responsibilities
+- Maintains project alignment with strategic values
+- At the strategic level
+   - Organisations typically need to establish the governance structures for the management of their projects
+- The project board (also known as a steering commitee) or steerco is responsible fr the correct management of the project.
+
+![alt text](image-43.png)
+
+- There are three pillars of project governance
+   - Structure
+      - decision rights of all the commitees involved.
+   - People
+      - Comitee membership
+   - Information
+      - To inform decision makers and create reports
+         - etc
+- Alongside 4 governance principles
+   - Ensure a single point of accountability
+   - Project ownership is independent of asset or service ownership or other stakeholder
+   - ensure seperation of
+      - Stakeholder management and project decision making
+      - Project and organisational governance
+
+- Project assurance
+   - Provides EXTERNAL view of how the project is progressing
+
+- Within PRINCE2, there are 3 views of assurance
+   - Business
+   - User
+   - Specialist
+- With each view reflecting the interests of the three project board members
+
 ## PRINCE2 process model
+
+- Is a visual representation of the prince2 proces, which identifies stages and the sequence of activities
+- Handy for understand the prince2 framework
+
+![alt text](image-44.png)
 
 ## Closing a project
 
+- Is a formal proces that clearly defines when the project ends
+- This enables official handover to client
+- Disbands the project team
+- And ensures that the project objectives are met
+
+- You can close a project in one of 2 ways
+   - Planned closure
+      - Is the desireable outcome, confirming the completion and acceptance of the procuts by the client
+   - Premature closure
+      - Unideal
+      - Requested by the project board
+
+- Closure process
+   - Handover of products to customer
+   - Evalutating the project objectives with the actuals and write the end project report
+   - Notify project board to close the project
+   - Confirm delivery
+      - Verify client acceptance of product
+      - Confirm availability of product support
+   - End project report
+      - review performance
+      - review benefits and if targets were met
+      - review lessons learnt during project
+
+- Unofficial project closure
+   - termination by starvation
+      - Is not an outright termination, but a willful neglact brought on by slowly decreasing the project resources until no longer viable.
+      - This can happen!
+         - Outisd ethe influence of the project manager
+         - Can be hard to live with
+
+
+
+# Week 6
+
+# Week 7
+
+# Week 8
+
+# Week 9

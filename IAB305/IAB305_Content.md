@@ -651,11 +651,104 @@ The plan answers the Who, What, When, Why and How.
 
 ## Gantt Charts
 
+Gant Chartts allow us to schedule all of the tasks within a project. This is important because
+- We can establish a timeline
+- Allows updated and control
+- Identify resource needs
+   - Talked about next section
+
+There are a few Disadvantages
+- Is only accurate if consistently updated and maintained
+- Difficult to estimate time to complete something
+   - Especially if significant positive or negative variation exists
+- If behind schedule does not show source of issues
+
 ## Resources and constraints
+
+Is anything needed to complete activities
+- Estimate and allocate each to work breakdown structure package
+- There are two tupes of resources
+   - Capital
+      - Money
+      - Material
+      - Equipment
+      - Facilities (where you work etc)
+      - etc
+   - Human
+      - System analysts
+      - Programmer
+      - DB Devs
+      - Web dev
+      - DBA
+      - and more
+- Project constraints
+   - Anything that restricts or dictates a project team's action
+      - cost
+      - time
+      - scope
+      - quality
+      - resources
+      -risk
+      - Referred to as tolerances in PRINCE2
+- Availability of a resource always ahs a direct bearing on duration of an activity
 
 ## Resource levelling
 
+- Technique used for resolving resource conflicts via delaying tasks, creating a more smoothed distribution of resource usage
+   - Reduces over-allocation
+
+- Objectives with resource levelling
+   - determine the resource requirements so that they will be available at the right time
+   - allow each activity to be scheudled with the smoothest possible transisiotn across resourcce usage levels
+
+   ![alt text](image-45.png)
+
+Why use resource levelling?
+- more consistent, uniform use of resources
+   - requires less management
+   - enables just in time inventory policy for more expensive resources
+   - results in fewer problems for project perosnnel
+   - improves morale
+
+How to schedule a project, including resource usage:
+- Initial network diagram to identify critical path
+- Identify and allocate resources
+   - use the WBS table included resources, ES and LF
+- Develop a resource loading chart
+   - Initially schedule all tasks from ES
+- Identify over allocated or other resource issues
+- Level the resource loading chart
+
+Example:
+![alt text](image-46.png)
+
 ## Project costing
+
+After development of good resource requirements list, PMs and their teams must develop estimates of ALL costs on resources. PM must take these estimates seriously if they want to complete a project within budget constraints. It is important to know how we estimate these costs, how to prepare these and the typical issues assosciated with IT cost estimates
+
+- Rough Order of Magnitude (ROM)
+   - estimates what a project will cost
+   - can also be referred to as a ballpark estime, guesstimate etc
+   - done early in a project
+      - often as early as possible
+      - to help PMs make project selection decisions
+      - Accuracy is usually -50% +100%
+         - ROM of 100 could be 50 or 200
+
+- Budgetary estimate
+   - used to allocate money into a budget
+   - Many orgs develop budgets 2 years into the fugure
+   - accuracy is -10% to +25%
+
+- Definitive estimate
+   - Definitive estimates are used ofr making purchasing decisions
+      - Accurate estimates are required for estimating final project costs
+   - definite estimates rae mde one year or less to project completion
+   - accuracy -5% to +10%
+
+![alt text](image-47.png)
+
+![alt text](image-48.png)
 
 ## Project governance
 

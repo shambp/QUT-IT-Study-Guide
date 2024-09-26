@@ -838,8 +838,32 @@ After development of good resource requirements list, PMs and their teams must d
 
 # Week 6
 
+This week is all about requirements, and all of the different types of requirements. In order to understand this better we need to understand something called requirements confusion
+
+## Requirements confusion
+
+There are 3 main reasons requirements confusion can occur
+- A common pra
+
+## Specify requirements
+
+## Business requirements
+
+## Solutions requirements
+
+## Writing requirements
+
+## Functional requirements
+
+## Non functional requirements
+
+## Requirements prioritisation
+
+
 # Week 7
 
 # Week 8
+
+No lecture
 
 # Week 9

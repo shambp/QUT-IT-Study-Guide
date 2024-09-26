@@ -843,11 +843,23 @@ This week is all about requirements, and all of the different types of requireme
 ## Requirements confusion
 
 There are 3 main reasons requirements confusion can occur
-- A common pra
+- A common practice is to refer to goals and objectives, or the expected benefits, as 'business requirements'
+- People commonly use the term 'requirements' to describe the features of the product, system, software that is expected to be created
+- A widely held model claims that these two types of requirements differ only in their level of detail or abstraction
+
+As mentioned previously. Business requirements are high-level, frequently vague and can decompose into the detailed product, system or solution requirements which provide or deliver a capability
+
+
 
 ## Specify requirements
 
 ## Business requirements
+
+- Defines what a company needs to deliver its value proposition or new capability
+- explains what the final goal is
+- explains why it is being done
+- can include long and short-term goals
+- are objectivbe and measureable
 
 ## Solutions requirements
 

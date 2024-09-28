@@ -435,7 +435,7 @@ Lets take graph G = ((1, 2, 3, 4, 5)((1, 3)(3, 1)(3, 2)(2, 3)(3, 4)(4, 3)(2, 4)(
 
 ![alt text](image-59.png)
 
-#### End lecture 1
+# Week 9
 
 ## Transition systems
 
@@ -519,3 +519,5 @@ all moments of choice in traces
 - Concurrency is represented by interleacing choice between actions of the simultaneously acting components
 
 ![alt text](image-65.png)
+
+# Week 9

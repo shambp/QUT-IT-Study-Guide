@@ -336,10 +336,160 @@ an employee can be allocated either a bus pass or a parking bay, not both
 # SUPER SUPER IMPORTANT
 
 ![alt text](image-46.png)
+
 # Week 7
 
 Consolidation :)
+<<<<<<< HEAD
+
+# Week 8
+
+## Sets, Multisets and Relations
+
+- A set is a collection of well defined and **Distinct** objects.
+    - The numbers 1, 3 and 5 are distint objects that form a set S = {5 ,1, 3}
+- A multiset is a generalisation of a set, where objects do not need to be unique.
+    - To apply the same example, M = {1, 3, 5, 3, 1, 5}
+- A binary relation over a set is a collection of ordered pairs
+    - R = {(1, 3), (3, 1), (5,1)}
+
+## Graphs
+- A graph is an ordered pair g = (V, R) **where V is a finite, non-empty set** and R is an irreflexive, symetric binary relation over V**.
+    - A binary set is irreflexive if no element is related to itself
+    - A binary relation on a set S is symmetric if it holds for all a and b in S that if a is related to b is related to a
+
+To help illustrate this: 
+```G = (V, R)
+V = {1, 2, 3, 4}
+R = {(1, 2),(1, 3),(2, 1),(3, 1),(3, 2),(3, 4),(4, 3),(2, 3)}
+```
+
+We refer to V as the **vertex set**, each element of V is a vertex (plural verticies). If we let E denote the set of symmertric pairs in R. Each element in E is called an edge. In this case (1, 2) and (2, 1) are an edge. See the below images for more context :). In a visual context we can see the edge as the line that connects each vertex together. R tells us how to connect each of the Verticies V.
+
+![alt text](image-51.png)
+
+![alt text](image-52.png)
+
+## Networks and Multigraphs
+
+- A network is a graph together with a fucntion that associates a number with every edge of the graph
+    - With a function being the relation between a set of inputs and set of permissible outputs
+
+![alt text](image-53.png)
+
+## Vertex Degree
+
+Lets take graph G = ((1, 2, 3, 4, 5)((1, 3)(3, 1)(3, 2)(2, 3)(3, 4)(4, 3)(2, 4)(4, 2))). We can number the edges using vertex degree deg(1) = 1, deg (2) = 2, deg (3) = 3, deg(5) = 0 and so on. This is useful notation to help understand larger graphs.
+
+## Isomorphic graphs
+
+- In many disciplines, it si important to know whether two objects under investigation are the same (in some logical sense) or different.
+- Intuitively, the 2 graphsa re the same if it is possible to redraw one of them. As they have the same edges and verticies
+
+![alt text](image-54.png)
+
+- An isomorphism from G1 = (V1, R1) to G2 = (V2, R2) is a function F between V1 and V2, such that for any two adjactent vertices there is an exact replica in the other graphs
+- With this we can dictate the G1 and G2 are isomorphic
+- Isomorphism is a comparison tool
+
+## Walks, Trails and Paths
+
+- A u-v walk in G, is an alternating sequence of vertices and edges of G, beginning with U and ending with V. Such that every edge joins the vertices immediately preceding it and following it.
+- A u-v trail is a walk which **does not repeat any edges**
+- A u-v path is a walk which **does not repeat any vertex**
+
+![alt text](image-55.png)
+
+### Circuits and Cycles
+
+> Let U and V be vertices of graph G
+
+- A U-V trail in which u = v and contains at least 3 edges is called a circuit
+- A circuit which does not repeat any vertices (except the first and last) is called a cycle
+
+![alt text](image-56.png)
+
+## Connected Graphs
+
+- Two vertices U and V in a graph G are connected if U = V, or if u!= v and a u-v path exists in G
+- If a graph G is connected if every two vertices of G are connected, otherwise it is disconnected
+
+![alt text](image-57.png)
+
+- If I remove the edge between V4 and V5, the graph will become disconnected
+
+## Directed Graphs
+
+- A directed graph, or digraph is an ordered pair D = (V, R) where V is a finte non-empty set and R is an irreflexive binary relation on V.
+
+- Remembering that a set is irreflexive if no element is related to itself.
+
+- For example, a digraph D may be defined by V= {1, 2, 3, 4} and R = {(1, 2)(2, 3)(3, 2)}
+    - with of course V being the vertex set
+    - And R being referred to as a directed edge or arc
+    - For consistency we often refer to R as E in notation
+
+![alt text](image-58.png)
+
+### Elementary Concepts and Digraphs
+- A directed U-V walk in D is similair to a normal U-V walk. However is a bit more infolved. I CBA typing it out so take this screenshot
+
+![alt text](image-59.png)
+
+#### End lecture 1
+
+## Transition systems
+
+- How we model the behaviour of a system
+- A system consists of a set of possible states of the system and a set of state transitions which the system can effect.
+
+![alt text](image-60.png)
+
+- A **state transition** may be the result of an internal action made by the system or of an external action mae by some other system
+
+- A transition system is an annotated directed graph where
+    - Vertices are representations of states
+    - Directed edges describe each state transition
+    - This allows us to graph our transitional systems
+
+- We use the folllowing rules to notate a transition system
+    - Using the tuple TS = (S, I, A, T, P. L)
+    - S is the set of states
+    - I is the initial states
+        - Is a subset of S
+    - A is the set of actions
+    - T is the transition relation
+        - See example to gain understanding of this
+    - P is a set of atomic propositions
+    - L is a labelling function that maps states to a set of atomic propositions
+
+- Example of a vending machine
+    - TS = (S, I, A, T, P, L)
+        - S = {S1, S2, S3, S4}
+        - I = {S1}
+            - The loop always starts at S1 in this case, which we can see in the graph
+        - A = {a1, a2, a3, a4, a5}
+        - T = {(S1, A1, S1),(s2, A2, S3),(S2, A4, S4),(S3, A3, S1),(S4, A5, S1)}
+        - P = {P1, P2, P3, P4}
+        - L(Si) = {Pi}, i = 1..4
+
+![alt text](image-61.png)
+
+## Model Execution
+    - The current state can be decribed by the distribution of tokes over a model.
+    - Enablement rules determine which state transition(s) are allowed to happen during the execution of the model
+    - the occurence rule allows us to determine the effects of a state change
+    - a state cange is selected non-deterministically from the set of enabled state transitions
+
+![alt text](image-62.png)
+
+The e formula shows us that it goes from waiting for payment, to coin insertion, to waiting for selection and so on.
+
+## Behavioural Equivalence
+
+=======
 
 # Week 8
 
 # Week 9
+>>>>>>> 983590873055f2057c527e764cbb5fc9a2640bd8

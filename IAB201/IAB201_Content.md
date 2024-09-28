@@ -340,7 +340,6 @@ an employee can be allocated either a bus pass or a parking bay, not both
 # Week 7
 
 Consolidation :)
-<<<<<<< HEAD
 
 # Week 8
 
@@ -487,9 +486,36 @@ The e formula shows us that it goes from waiting for payment, to coin insertion,
 
 ## Behavioural Equivalence
 
-=======
+- Given two transition systems, a natural question is whether they describe the same behaviour. This atetement can mean many different things
+    - are we satisfied if both transition systems can perform the same sequences of actions?
+    - When can we consider two transition systems to be equivalent?
 
-# Week 8
+- two ismomorphic systems describe the same collection of traces and preserve the same moments of choice.
 
-# Week 9
->>>>>>> 983590873055f2057c527e764cbb5fc9a2640bd8
+![alt text](image-63.png)
+
+## Bisimilarity
+
+- If one transition system can perform action x then the other transistion system must also be able to perform action x in such a way that resulting states are again related
+
+![alt text](image-64.png)
+
+These graphs are Bisimilair
+
+> Intuition: Two transition systems are bisimilar if and only if there is no
+winner in the bisimilarity game. Two bisimilar transition systems preserve
+all moments of choice in traces
+
+## Concurrency
+
+- The ability of different parts of a program/alg/problem to be executed out of order or at the same time without affected the outcome
+
+### Interleaving
+
+- A widely adopted paradigm for modelling concurent systems is called interleaving
+- Models that adoptthis paradigm abstract from the fact that a system is actually composed of a set of (party) independent components
+- the global state of a system is omposed of the current individual states of the components
+- actions of an independent component are merged (also referred to under the verb weaved or interleaved) with action from other components
+- Concurrency is represented by interleacing choice between actions of the simultaneously acting components
+
+![alt text](image-65.png)

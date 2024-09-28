@@ -249,3 +249,75 @@ sick - ceebs catching it up :)
 # Week 8
 
 # Week 9
+
+## Exercise 1 - Evaluation Criteria
+
+> Prepare evaluation criteria to help Eagle in selecting the best vendor to collaborate with them in developing portfolio management technology system solutions. You should list the most important factors that should be included in the vendor evaluation critera.
+
+- Develop a financial system that offeres secure portfolio management solutions - High
+    - Accross multiple lines of business
+- IT Support - Moderate
+- Architecure design - High
+- Quality Assurance process - High
+- Software development - high
+- Required features - High
+    - data management
+    - investment accounting
+    - perfomance measurement
+- Must be delivered as either a comprehensive sweet or a set of individually deployed solutions - Moderate
+- Multilingual support - High
+- Global industry regulations support - moderate
+    - That addresses future expanding needs
+- Should help Eagle establish an accelerated and robust product development cycle. - Moderate
+
+## Exercise 2 - Traction Shipping RFP
+
+> Based on the case study, as the IT Manager from Traction Shipping write a brief RFP to be sent to prospective Vendors
+
+- Items to be included in the Request for Proposal (RFP)
+    - Background
+        - Traction shipping is a general freigh company that provides local and regional shipping for business for consignments ranging from parcels through to full container loads. With a variety of customer ranging from the public through to industry customers. The business has its hHQ in Brisbane and freight depots in southport, rockhampton and Roma. Traction employees a workforce of 240 with a company fleet of 75 vehicles.
+    
+    - Requirements
+        - Traction requires the development of an ERP system that can meet the following requirements
+        - Consignment management
+            - Quotations
+            - Bookings
+            - Shipment tracking
+            - deliveries
+            - billing
+        - Load management
+            - Load-shipment allocation
+            - Journey scheduling
+            - cost distribution
+        - Contract management
+            - customer and location maintenance
+            - regular bookings
+        - Fleet Management
+            - Maintenance
+            - Asset tracking
+            - Certifications
+        - Staff management
+            - Rostering
+            - Payroll
+            - Expenses
+
+    - Schedule
+        - We will be using a round based system, with all expressions of interest to be submitted by the 15th of October, with the award being announced on the 8th of November
+
+    - Summary of Project
+        - We are looking for the development of an ERP system that will work accross all lines of business, this can be implemented via scheduled releases or a comprehensive suite. The system must be able to suppport the above requirements alongside provide us with industry regulations support and have an in depth quality insurance process. This piece of software should help Traction Shipping development a robust product cycle
+
+    - Evaluation Critera
+        - 50% - IT requirements
+            - Consignment management
+            - Load management
+            - Contract management
+            - Fleet management
+            - Staff management
+
+        - 30% - Support
+            - Development of robust product cycle
+            - Industry regulations support
+        
+        - 20% - 

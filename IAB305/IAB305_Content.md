@@ -855,22 +855,250 @@ As mentioned previously. Business requirements are high-level, frequently vague 
 
 ## Business requirements
 
+- Also known as stakeholder requirements
+   - STRS
+- Describes characteristics of a system from the business' perspective
+- They deliver the products, systems, software and processes needed for the business to create and deliver its value proposition
 - Defines what a company needs to deliver its value proposition or new capability
 - explains what the final goal is
 - explains why it is being done
 - can include long and short-term goals
-- are objectivbe and measureable
+- are objective and measureable
+- Bsuiness requirements are often specified in the context of devloping or procuring software or other systems
+
+### Business requirements analysis
+
+- Identify customer needs
+- Evaluate system for feasibility
+- Perform technical and economic analysis
+- Allocate broad functions to system elements
+- Identify and constrain limitatons
+- Provide system definition
+
+- Problem recognition techniques
+   - Flip it
+   - The creativity dice
+   - Fishbone analysis
+   - Problem Tree
+   - SWOT Analysis
+   - Agreement certainty matrix
+   - SQUID
+   - Speed Boat
+
+- Requirement gathering techniques
+   - One on one interviews
+   - Focus groups
+   - Utilization of use cases
+   - Build prototypes
+   - Define requirements precisely
+   - Prio requirements
+   - Carry out impact analysis
+   - Resolve conflict
 
 ## Solutions requirements
 
+- Define functional operations the software system should provide from a users perspective
+- Define non-functional specifications
+   - How well a system performs
+- Can include long and short term goals which are objective and measureable
+
+We need to ask some basic questions to understand solutions requirements
+- Why do we need a system?
+- Who is it for?
+- What does it need to do?
+- What does it need to integrate with?
+- What is the approx cost/benefit?
+
+### Solution Analysis
+
+- Solution requirements are features that a system must provide to fulfil system purpose
+- Solution analysis studies business processes or business, to identify if its systems meet the goal set for it
+   - It is also a problem solving technique that examines a systems component pieces and discovers how well those parts work together to achieve their purpose
+- Systems design shows how the system will fulfil this objective, like the blueprint of a building or house, it onsists of all the specifications that give the system its form and structure.
+
+### Solution Analysis Techniques
+
+- Scope Definition
+   - A clearly defined objectives and requirements necesary to meet a project's requirements as defined by its stakeholders
+- Problem analysis
+   - The process of understanding problems and needs to find the solutions that meet the requirements
+- Requirements analysis
+   - Determining the conditions that need to be met
+- Logical design
+   - Looking at the logical relationship among the objects
+- Decision analysis
+   - Making final choice
+
+### Solution requirements analysis
+
+There are 5 phases of requirements analysis
+
+- Problem recognition
+   - Clearly identifying the problem ausing analysis techniques.
+   - Capability heat maps can be useful
+- Evaluation and synthesis
+   - Synthesise a new solution, applying your knowledge and new information
+- Modelling
+   - Model the solution, showing how it works
+- Specification
+   - Write a list of requirements
+- Review   
+   - Post implementation review of how well the solution is performing
+
 ## Writing requirements
 
-## Functional requirements
+![alt text](image-49.png)
+
+There are 8 steps in writing requirements
+- Atomic
+   - Is self contained and capable of being independantly understood
+- Concise
+   - Contains no extraneous and unnecessary content
+- Complete
+   - Sufficient to guide further work and at the appropriate level of detail for work to continue
+- Consistent
+   - Aligned with the identified needs of the stakeholders and not conflicting with other requirements
+- Unambiguous
+   - Requirement is clear and easy to understand. With no other assosciations
+- Feasible
+   - Reasonable and possible within agreed terms
+      - risk
+      - schedule
+      - budget
+- Testable
+   - use ur brain buddy
+- Traceable
+   - The source of each requirement can be recorded
+- Prioritised
+   - each and every requirement must be prioritized, so the team has a guideline on what to implement first
+
+
+## Requirements
+
+- Defines what a solution should do
+- two different types of requirementse
+   - functional
+   - non-functional
+- The requirements guide the solution design
+- ensures the solution meets business needs
+- In order to appraise a solution we need to identify what is mot important
+
+### Functional requirements
+
+- Things that a business would need to do even if the system was not there, and the process was manual
+- Funtional means providing service to a user
+- Describes the functionality or system servies
+- Functional **user** requirements may be high level statements of what the system should do but functional **system** requirements should describe the system services in detail
 
 ## Non functional requirements
 
+- Defines how well the functional requirements must perform
+- States the criteria to jusdge system performance rather than a specific behaviour (which is a functional requirement)
+- They apply both to system solutions and also the people and process aspects of a solution
+- They are expressed in textual format and in a declarative form
+   - The system must be available 99.9% of the time during business hours x-y
+   - It is like a user story if you have ever done those before :)
+      - I require X to do Y because Z
+- NFR can be subjective and contain inherent conflicts requiring negotiation across stakeholders. many are qualitative
+
+Non functional requirements assessment
+- Availability
+   - Degree to which a solution is operable and accessible when required for use, often expressed in terms of percent of time the solution is available.
+- Compatibility
+   - Degree to which the solution operates effectively with other components. How one process comapres to another for example
+- Functionality
+   - How a solution meets the users needs, including aspects such as suitability, accuracy and interoperability
+- Maintainability
+   - How easy a solution or component can be modified
+- Performance efficiency
+   - How well a solution or component performs its functions
+- Portability
+   - How well we can transfer from one environment to another
+- Reliability
+   - What it says on the tin
+- Scalability
+   - What if we made the solution take more traffic? or increase its workload?
+- Security
+   - How susceptible is the system to malicious action?
+- Usability
+- Certifications
+   - Industry standards etc
+- Compliance
+   - financial, legal etc
+- Localizations
+   - Local language, local compliance and more
+- Service level agreements
+   - contraints of the organization being served the solution
+- Extensibility
+   - Ability to incorporate new functionality
+
 ## Requirements prioritisation
 
+Prioritisation is necessary in order to provide a correct order of action in our solution. We use 4 methods to prioritise
+
+- Impact-effort matrix
+   - Consists of 4 quadrants in a matrix
+      - Quick wins
+         - Low effort, High impact items that are highly worth pursuing
+      - Big Bets
+         - High impact, High effort items, usually very high value
+      - Money Pits
+         - Low impact, high effort items that are not a good investment
+      - Fill Ins
+         - Low effort, low impact items that are not as required, like a low priority user story that can wait till next sprint to action.
+![alt text](image-50.png)
+
+- Feasibility, desireability and viability scorecard
+   - Feasibility
+      - How easy is it to build?
+   - Desirability
+      - How much do stakeholders want this functionality
+   - Viabiity
+      - Is there a positive benefit for the business
+![alt text](image-51.png)
+
+- RICE method
+   - Reach
+      - How many users will this requirement effect
+   - Impact
+      - Shareholder value
+   - Confidence
+      - How confident you are with your estimates in other criteria
+   - Effort
+      - How much work is required
+![alt text](image-52.png)
+
+- MoSCoW Analysis
+   - Must Have
+      - Must be satisfied for solution to be considered a success
+   - Should have
+      - If possible
+   - Could Have
+      - Desireable bt not necessary
+   - Won't have
+      - Not needed at this stage
+![alt text](image-53.png)
+
+### How do we decide which requirements are most important?
+
+- Business value\
+   - Relative value to the organisation
+   - Common when enhancing an existing solution
+- Business or Technical Risk
+   - Risk is assesssed and priorities assigned
+   - High risk first? or low risk first?
+      - High risk ensures we can get failures out of the way early
+      - Low risk ensures early big wins
+- How difficult implemntation
+   - Decision of hardest or easiest to implement first
+- Likelihood of success
+   - Quick successes first = early wins for the team
+   - Gains support for the project
+- Regulation or policy compliance
+   - requirements impleneted based on external compliance over stakeholder interest
+- Realtionship to other requirements
+   - some low order requirements may require a higher value requirement to be implemented first
+- Urgency
 
 # Week 7
 

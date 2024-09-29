@@ -246,8 +246,112 @@ group of students
 
 # Week 5
 
+skipped
+
 # Week 6
+
+skipped
 
 # Week 7
 
+Consolidation
+
 # Week 8
+
+## Question 1 - Isomorphic graphs
+
+G1 and G2 as they have the same number of vertices
+
+likewise with G3 and G4
+
+## Question 2 - The Handshake Problem
+
+- Frank and Jeff are partners
+- They decide to hold a party and invite 4 other couples
+- There are a number of greetings
+- Naturally a person does not greet themselves, nor does anyone greet their own partner
+- Also, any two people may only greet each other once
+
+At the end of the party, Frank asks everyone how many people did they greet, and receives 9 different answers
+
+G = S, R
+
+S would be 8 and there is no point doing these retro, focus on current tutorials
+
+# Week 9
+
+## Question 1 - Beverage Vending Machine
+
+Consider the transition system below, which models a vending machine, this system was also in week 9 lecture
+
+> Extend the transition system to allow refilling soda drinks that may have run out upon customer selection. Assume that juice drinks are always avail
+
+![alt text](image-66.png)
+
+I am not going to bother adding the existing action points. Onliy the ones that I am adding
+
+![alt text](image-67.png)
+
+## Question 2 - Weaving Machine
+
+A transition model that models the running mechanism of a very simple weaving machine is defined as follows
+
+- T + {S, I, A, T, P, L}
+    - S = {S1...s6}
+    - I = {S1}
+    - A = {"prepare", "liftwarp1", "liftwarp2", "increment thread count", "load thread", "return shuttle", "finish"}
+    - T = im not righting this out, s1 is placed with a1 and vice versa. i set it up chronoligcally
+    - P = {P1...P6}
+    - L = L(S1) = p 1, L(S2) = p 2, L(S3) = p 3, L(S4) = p 4, L(S5) = p 5, L(S6) = p6
+
+> Draw a complete graphical representation of this transition system
+
+> How many times will the TS be in state "Shuttle at Right" for the minimum possible number of state transitions
+
+> How many times will TS be in state "Shuttle at Right" for the execution that includes all actions at least once and has the min possible number of state transitions?
+
+![alt text](image-68.png)
+
+and for the other two questions its 1 and 2 respectively. In theory we can just pass it once and finish. However if we want to pass all we have to go through it one mroe time to go through the "Counter Incremented" action :)
+
+## Question 3 - Behavioural Equivalence
+
+> Determine for each pair of transition systems (a-d) whether they are isomorphic, bisimilair or trace equivalent
+
+> Something to keep in mind here is that an isomorphic is Bisimilair and Trace equivalent by default. However a Trace equiavlent system usually isnt bisimilair. They are like normal forms in SQL, see picture below :)
+
+![alt text](image-75.png)
+
+### Graph A
+
+![alt text](image-69.png)
+
+### Graph B
+
+![alt text](image-70.png)
+
+> The extra coint at the tea point means that the user in this system is allowed to change their mind and get a coffee instead of they add an extra coin i think? This is illustrated better in graph C tbh
+
+### Graph C
+
+![alt text](image-71.png)
+
+### Graph D
+
+![alt text](image-72.png)
+
+### Comparison
+
+# TODO: Put this in a fancy table
+
+Graph A - B: Bisimilair, Trace Equivalent
+
+Graph A - C: Trace Equivalent
+
+Graph A - D: Isomorphic, Bisimilair and Trace Equivalent
+
+Graph B - C: Isomorphic, Bisimilair and Trace Equivalent
+
+Graph B - D: Trace Equivalent
+
+Graph C - D: Trace Equivalent

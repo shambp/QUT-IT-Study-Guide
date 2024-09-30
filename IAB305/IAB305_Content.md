@@ -1378,3 +1378,60 @@ You have 3 main cloud service models
 No lecture
 
 # Week 9
+
+## Implementation Planning
+
+I shouldn't have to give you a definition as to what implementation means.
+
+Implementation steps:
+- State structure/scope
+- Define goals and objectives
+- States start and end of the project
+- States deliverables
+- Specifies the client/identifies stakeholders
+- States resources
+- States Project methodology (Ie PRINCE2)
+
+Success factors
+- Good Communcications
+- Users Involvement
+- Clear requirements
+- Good Planing/Clear Objectives
+- Excellent scope definition
+- Clearly defined process
+- Customer focussed
+
+Risk factors:
+- Cost overrus
+- Project delays
+- System stability
+- Poor functionality
+- Poor user training
+- Poor data migration
+- Scope creep
+
+## Implementation/Integration
+
+Not really gonna bother fleshing out the concept of integration as well
+
+Keyword they mention is Enterprise Appliction Integration/Solution (EAI) Which essentially is the amalgamantion of an integrated system, CRM, HR, Ops, Finance all unified.
+
+![alt text](image-65.png)
+
+This screenshot can help illustrate this concept.
+
+## Introduction to Integration Mechanisms
+
+Integration models define how applications will integrate via defining the nature of and the mechanisms for integration. Which are related to the system layer.
+
+![alt text](image-66.png)
+
+### Presentation integration
+
+- A presentation integration model allows the integration of new software through the existing presentations of legacy software
+
+### Data integration
+
+### Logic function integration
+
+# Week 10

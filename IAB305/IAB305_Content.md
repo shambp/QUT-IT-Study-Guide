@@ -1102,6 +1102,277 @@ Prioritisation is necessary in order to provide a correct order of action in our
 
 # Week 7
 
+> Very picture heavy week. Will try to break them down via text if possible.
+
+## Enterprise Archtecture
+
+![alt text](image-54.png)
+
+In the above image we can see where enterprise architecture sits, within the Tactial level. This is important to know as it acts as the intermediary interface between strategy and operations. When choosing/designing enterprise archtecture we need to do the following:
+
+- Planning
+   - Define the business need for the system
+   - Often incorporates the conduct of a fesibility study
+- Analysis
+   - Analyse and document business requirements, gathered from shareholders + intended users
+   - These include both functional and non-functional aspects of the required system
+- Design
+   - Developing a workable technical design for the system based on the requirements gathered during the analysis phase
+- Development
+   - Converting the technical design into an operational infosystem
+- Testing
+   - Which is conducted at various levels during and at the conclusion of the dev phase to confirm the system operates in accordance with expectations
+- Implementation
+   - Preparing for and conducting the changeover of the new information system
+- Maintenance
+   - Managing bugs and change requests that may arise during the operational life of the system
+   - Post-implementation review is an almost required activity when a new system has been live for a period of time
+
+## Sourcing Alternatives
+
+![alt text](image-55.png)
+
+### Hybrid approaches
+
+A combination of sourcing approahes can be useful for specific projects or organizations. There are usually some key influences in this choice.
+
+- Whether IS features are generic/widely available
+- Whether the org has specific needs in certain areas
+- Whether there are legacy systems that require integrations
+
+- Significant issues in IS
+   - Rapdi obsolescence and shorter IT cycles
+   - Big data and the rapid growth of data
+   - Demand fluctuations
+   - Increased energy needs
+   - Challenges of social and mobile tech
+
+## How to source Enterprise Software Systems
+
+There are 3 major ways to obtain an enterprise system:
+- Bespoke
+- User developed
+- Commercial off the shelf (COTS)
+
+## Bespoke Development
+
+Custom IS solution developed from scratch by a group of qualified IS professionals to meet specific business needs. This can be taken by an in-house team or outsourced to a 3rd party. Hybrid approaches are also not uncommon
+
+Benefits:
+- Exact fit for the business
+- Unique solution
+   - Can deliver a competitive advantage
+
+Potential difficulties:
+- Cost
+- Timeframe
+- Quality
+- Maintenance
+
+## User Developed
+
+An exclusively inhouse system that is usually developed by end-users, without any significant assistance from IT specialists. Usually undertaken on a proto-typing basis with iterative improvements to refine the solution to business need.
+
+> 50-75% of all computing applications can be calsses as "end-user"
+
+Benefits:
+- Business user generally has excellent understanding of the proble that requires solution
+   - and what the solution needs to be
+- sense of ownership
+- rapid devlopment
+- responsive to end-user needs
+
+Potential Difficulties:
+- Insufficient end-user expertise
+- Lack of adherance to standard design principles and control mechanisms
+- Often developed in isolation from other IS resources/capabilities
+
+## COTS
+
+Direct purse/lease/rental and deployment of an existing IS solution. Which is generally a widely used application utilised by more than one company, which can be deployed either in house or externaly hosted (AWS servers etc).
+
+Benefits:
+- Imediately available
+- Features are often based on industry standards/best practice
+- Availability of support and regular upgrades
+- Often more cost effecitve
+
+Potential difficulties:
+- Can be unfit to fit organisational needs
+- feature set is available to other users
+- more bespoke features could be difficult or expensive to obtain
+
+## Acquisition alternatives
+
+How do we choose whch IS source to acquire?
+
+![alt text](image-60.png)
+
+Alongside the framework above. We also have a few other factors to consider
+   - Org size/number of users
+      - smaller orgs often have limited experience and budget to undertake complex IS acquisitions
+   - In house IS/IT expertise
+      - Without a specialist in house, there is a reliance on external parties for implementation and support
+   - IS/IT expertise amongst end users
+      - More IT literate user base means use of COTS is more likely to be successful and self-sourcing/end-user prototyping also becomes an option
+   - Criticality
+      - Significant organisational reliance on a specific IS solution can influence chosen sourcing approach
+   - Compexity of required IS
+      - more complex business needs require thorough understanding to determine if they can be catered for by COTS solutions against more bespoke development
+   - Unieuqness of the businesss or business are that requires support
+      - Company specific needs often require a more bespoke solution
+   - Linkages with existing applications
+      - you may need to embrace an existing IS solution. Which would require bespoke development of middlware*
+         - * a piece of software that acts as an intermediary layer between the new and old system
+
+## Complexity vs uniqueness
+   - Compare and contrast the propsoed solution application. How complex is it (bespoke design vs COTS)? How unique is it (Niche solutions vs COTS). We have another matrix for this :)
+
+   ![alt text](image-61.png)
+
+## Tendering Processes
+
+- Tender requeest documents (RFx documents) indicate what the org is seeking, alongside any specific reuirements and contraints that need to be satisfied. The form is seeking a response on how it is to be provided
+- Usually widely advertised
+   - More choices
+- Participating suppliers complete and submit a written tender response outlining specs of their offer
+- Submitted tender responses are evaluated against pre-defined criteria
+
+There are 4 kinds of tendering processes
+- Open tendering
+   - All are welcome!
+- Select tendering
+   - Invite only
+- Multi stage
+   - Large pool of respondents, with them weeding out over time using their criteria
+- Invited tendering
+   - Purhchase invites a limited number of suppliers to undertake the work indicated in the tender document
+
+![alt text](image-62.png)
+
+- Procurement of IS solutions is often handled using this process
+- Tendering is the act of making an offer, bid, proposal or express of interest in a resopnse to an invitation or request for tender
+- Orgs invite other business to respond to a particular need, such as the supply of goods and services, and will select an offer or tender that meets their needs and provides best value
+
+There are a few termed processes to keep in mind
+- RFI
+   - Request for info
+   - Open ended enquiry to the market to gather data and consolidate understanding
+- EOI
+   - Expression of interest
+   - shortlisting potential suppliers before progressing to bids
+- RFP
+   - Request for proposal
+   - open ended requeest to suppliers for creative solutions
+- RFT
+   - Request for tender
+   - An oppurtunity for potential suppliers to submit an offer to supply goods or services against a detailed tender
+- RFQ
+   - Request for quotation
+   - Wants to see which supplier can provide best price
+
+## Request for proposal
+
+![alt text](image-63.png)
+
+What should you request from vendors?
+- Company information
+   - background/history
+   - overview of their services/capabilities
+   - management/key personnel bios
+   - contact info
+- Their solution
+   - Basic summary
+   - methodology/process
+   - Dev plan
+- List of tasks
+- Timeline
+- Budget
+   - both the cost of their servies and required 3rd party costs
+- Support and maintenance
+- List of deliverables
+- Proposed project eam
+- Vendor references
+   - past clients
+   - past projects
+
+## Proposal evalutation
+
+There are three main steps to evaluating a proposal:
+
+![alt text](image-64.png)
+
+- Feature checkist, first cut exclusion
+   - Used to exclude offerings lacking key features/capabilities
+   - The purpose of this phase is to determine whether each proposal is sufficiently responsive to the RFP to permit complete eval
+- Initial eval and scoring
+   - Measure individual merits of technical components in the proposal against pre-eestablished criteria. Members of eval team wil review and score all requiremnts (see tutorial content for more info on scoring)
+- Final selection and benchmarking techniques
+   - Operational performance and experiences can be compared with other organisations using the solution in a similair context
+   - An evalutaton system can be configured using actual company data and company staff can process actual scenarios and compare them with current practices
+
+> I would strongly recco looking at the tutorial for more info on this.
+
+
+## Introduction to cloud computing
+
+> I already know a bit about this topic. Notes will likely be lacking :)
+
+![alt text](image-56.png)
+
+tldr cloud computing is a way of simulating multiple machines on one. allowing us to move resources throughout these different machines as needed. Think if I have two users on a website. One is stiting AFK and the other is actively using it. I would shift resources away from the AFK user. We are also able to run several OS on a single cloud machine.
+
+There are 4 kinds of cloud:
+- Public
+- Private
+- Community
+   - Shared amongst a group of users. Not quite public but not quite private
+- Hybrid
+   - A combination of multiple cloud systems running on one
+
+## Virtualisation
+
+There are many differnt types of virtualistion:
+OS virtualisation
+- our containers can run completely different OS
+   - some Linux distro and windows usually
+- Platform virtualisation
+   - running multiple computers
+- Storage virtualisation
+   - Seperating our applications and storage, forcing it to go through anintermediary layer
+- Network Virtualisation
+   - Think cisco meraki, combining hardware and software setup into one
+- Application virtualisation
+   - Allowing us to run several instances of an application to suppoort multiple users
+
+## Cloud Service Models
+
+You have 3 main cloud service models
+- Software as a service (SaaS)
+   - Licensed software that we can use on demand
+   - think things like salesforce and MS office
+- Platform as a service (PaaS)
+   - environment where we can execute applications
+   - Azure is a platform as a service
+-Infrastrucutre as a service (IaaS)
+   - Broken down into 2 sub headings
+      - Computation as a service
+         - Amazon servers sit here
+      - Data as a service
+         - google drive, dropbox etc
+
+## Cloud application stack
+
+![alt text](image-57.png)
+
+## Cloud resource sharing
+
+![alt text](image-58.png)
+
+## Division of responsibilities
+
+![alt text](image-59.png)
+
 # Week 8
 
 No lecture

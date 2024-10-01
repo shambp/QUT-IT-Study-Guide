@@ -1429,9 +1429,129 @@ Integration models define how applications will integrate via defining the natur
 ### Presentation integration
 
 - A presentation integration model allows the integration of new software through the existing presentations of legacy software
+- This is typically used to create a new user interface but may be used to integrate with other applications
+
+![alt text](image-67.png)
+
+You should use the presentation integration models when you you want to do the following:
+- Put a PC-based UI on an existing terminal based app in order to provide an easier to use application for the end user
+- Present an interface that the user perceives to be a single application but is in fact the composite of several apps
+- Integrate with an applicatoin whose only useful and implementable integration point is via its presentation.
+
+This form of integration is useful only when it can be accomplished using the UI or presentation of the legacy applications
+
+Pros:
+- presentation integration is easy to accomplish
+   - Quick to action
+- Logic is usually less complex than other integration logic because it can be viewed, is easily discovered and is well documented/self describing
+- When the tools used to perform this integration work well they do most of the work neeed to create the integration
+
+Cons:
+- Integration only occurs at UI level. Therefore only the data and interactions defined in legacy presentations can be assesed
+- Presentation integration can have performance bottlenecks because it adds an extra layer of software to an existing application
+- Underlying data and logic of existing application cannot be accessed.
 
 ### Data integration
 
+- A data integration model allows the integration of software via access to the data that is created, maanged and stored by the software. Typically for the purposes of reusing or synchronizing data across applications
+- The data integration model goes direcetly into the database or data structures of an application , bypassing presentation and business logic to create the integration.
+
+![alt text](image-68.png)
+
+There are a couple different tools we use for data integration:
+-Database access middleware
+   - focuses on provided connectivitiy to distributed databases
+      - Middelware implies that these tools allow for conectivity between software components in combination with runtime capabilities to manage interactions between the software components and runtime capabilities to manage interactions between components.
+      - Focuses on:
+         - Exchange of quiries
+         - Management of results
+         - Connectivity to databases
+         - Pooling of connections
+         - Other housekeeping tasks
+   - Data access middleware is software that facilitites access to databases through the use or creation of connectors
+      - Provides run-time envrionment to manage the requests sent to these databases and returns the results
+
+- Data transformation
+   - usually compliments middleware
+   - Provides ability to convert data from source database format into the target database format
+      - eg convertig EBCDIC to ASCII data format.
+      - Financial conversion
+      - Language conversion
+
+- Data warehousing
+   - Collecing and managing data from different sources. Data warehousing connects, analyses and loads data into the data warehouses (or databases).
+      - The middleware in the datawarehouse environment pulls data from various sources, handles any necessary transformations in the data and stores a large amount of data for query and analysis
+
+
+- Online Analytical Processing (OLAP)
+   - Performing multidimensional analysis at high speeds on large volumes of data that comes from a data wareouse or some other unified centralized data store
+      - We store the data in  adata warehouse in relational datasets. OLAP extracts data from multiple relational data sets and reorganizes it into a multidimensional format that enables very fast processing and very insightful analysis
+
+The purpose of these is to:
+- Combine data from multiple sources for analysis and decision making
+   - example
+      - If you want to access data from multiple data sources and place it into statistical analysis software
+- Provide multiple applications with Read access to data lake or common source of info
+- Allow data to be extracted from one source and reformatted/updated in another
+      - update customer address accross several entities
+
+Pros:
+- Greate flexibility than presentation model
+- Access to a wider range of data than what is available in user interface
+-allows access to complete set/subsets of data depending on the needs of new application
+- This approach also simplifies access to data sources
+- Allows data reuse accross all applications
+- Once integration is complete it can be resused
+
+Cons:
+- By integrating at the data level applications must write any functionality required to manupulate data
+- Each integration is tied to it's data model. If the model changes, the integration runs the risk of breakage. Forcing the integration to be re-written
+
 ### Logic function integration
+
+- A functional integration model allows the integration of software for the purpose of invoking existing functionality from other new or existing applications.
+- This integration is done through interfaces to the software
+- Business logic is the implementation of business processing in a programming language
+- The business logic contains the rules that are required to properly interpret or contstruct the data and that are not always available through the presentation
+
+![alt text](image-69.png)
+
+- Functional integration requires that the point of integration be in the code of the application. This point of integration could be as simple as access through an API or as difficult as requiring additional code to create a point of access
+
+There are three catagories of distributed processing middleware:
+- Messeage Oriented Middleware (MOM)
+   - Passes messages between applications
+   - similair concept to a post office
+      - message is placed into the MOM, the MOM delivers the message to the target system
+
+- Distributed object technology (DOT)
+   - Applies object-oriented concepts to middleware
+   - The interface makes software look like objects.
+   - Can be accessed by other apps through the network through object interfaces
+
+- Transaction Processing Monitors (TPM)
+   - Provide mission critical support for distributed architectures by allowing a transaction to be managed using concepts such as two-phase commit
+   - Preserves the integrity of distributed information resources such as databases, files and message queue
+
+Pros:
+- The functional integration model provides the most robust integration capabilities
+- It is the most flexible
+- Can be used to solve presentation or data integration problems
+- Higher degree of reusability
+
+Cons:
+- Higher complexity
+- learning curve for the software that aids in functional integration is higher than for the presentation of data integration tools
+- it may be difficult to access the business logic of some applications because the source code may not exist/there are no apis
+
+## Choosing which integration to use
+- How feasable is it to access functinality in applications?
+   - In some cases it may be so difficult that you would have to integrate vie the presentation or through direct data access
+- Another factor is performance
+   - Each integration method will be more performant than another depending on the situation.
+- How much future reuse is expected to be addressed?
+   - Funtional integration gives greater reusability but can be more difficult to apply, depending on the design of the code that performs the function
+
+One of the most important outcomes of any integration is to reduce the level of coupling between the software components that are integrated.
 
 # Week 10

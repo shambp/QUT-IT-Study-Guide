@@ -1563,5 +1563,7 @@ One of the most important outcomes of any integration is to reduce the level of 
    - Training
    - Data conversion
    - System change over
-the 
+
+All of the other implementation stuff like testing, documentaion and handover should be pretty self explanatory ngl
+
 # Week 10

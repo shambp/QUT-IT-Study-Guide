@@ -1554,4 +1554,14 @@ Cons:
 
 One of the most important outcomes of any integration is to reduce the level of coupling between the software components that are integrated.
 
+## Implementation tasks
+- Test system
+- Documention
+- management approval
+- System installation and evaluation
+   - Operation and test environments
+   - Training
+   - Data conversion
+   - System change over
+the 
 # Week 10

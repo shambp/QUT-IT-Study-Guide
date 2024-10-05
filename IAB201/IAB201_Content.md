@@ -475,7 +475,7 @@ Lets take graph G = ((1, 2, 3, 4, 5)((1, 3)(3, 1)(3, 2)(2, 3)(3, 4)(4, 3)(2, 4)(
 ![alt text](image-61.png)
 
 ## Model Execution
-    - The current state can be decribed by the distribution of tokes over a model.
+    - The current state can be decribed by the distribution of tokens over a model.
     - Enablement rules determine which state transition(s) are allowed to happen during the execution of the model
     - the occurence rule allows us to determine the effects of a state change
     - a state cange is selected non-deterministically from the set of enabled state transitions
@@ -520,4 +520,71 @@ all moments of choice in traces
 
 ![alt text](image-65.png)
 
-# Week 9
+# Week 10
+
+> this week introduces petrinets, which will be used for the final assignment
+> We begin by revisiting the week 2 tutorial. with the whole alternating square and circle shtick
+
+- A petri net is a directed graph consisting of places, transistions and directed edges between places and transitions
+    - Also referred to as bipartite graphs
+
+## Syntax
+
+- Places are circles and are used to encode states
+- Transitions are visualised as rectangles and encode state transitions
+- Petri nets uses the formula
+    - N = (P, T, F, L, λ)
+        - λ is lambda if you didnt't know
+    - P is a finite non-emtpy set of places
+    - T is a finite non-empty set of transactions
+    - F is the flow relation
+        - a collection of ordered pairs of the form (p, t), (t, p) such that p is place in P and t is transition in T
+    - L is a set of labels, such that L contains τ (a special label (tau))
+    - λ is a labelling fucntion that maps transitions in T to labels in L
+        - this is lambda btw
+
+    ![alt text](image-76.png)
+
+    ![alt text](image-77.png)
+
+> Something to note here is in the notation above the Tx●. this notates input and output places of transition. EG T2● = {P3, P4} means that we are splitting our net from t2 into 2 paths and ●T5 = {P5, P6} denotes that we are converging FROM p5 and p6 into t5
+
+## Markings
+
+- Markings assign tokens to places
+    - They represetn a state of the execution of a system
+        - EG the progress of an instance of order handling progress
+- A marking M of a petri net N = (formula) is a function that maps places from P to natural numbers (that includes zero)
+- The marking below is formally captured by M = {(p1,1),(p2,2),(p3,0)}
+    - We will also denote this as p1 + 2p2
+- Think of these tokens as instances of a class in programming class p1 has one instance and class p2 has two instances if that helps
+
+![alt text](image-78.png)
+
+## Petri Net systems
+
+- A petri net system is a pair with formula:
+    - S = (N, M)
+        - N = (P, T, F, L, lambda)
+        - M is the initial marking
+
+![alt text](image-79.png)
+
+## Transition enablement rule
+
+- Transitions may change a marking by firing (occurring)
+- Only enabled transitions may fire
+- Informally
+    - A transition is enabled if each of its input places contain a minimum of one token
+- Formally
+    - A transition t is enabled in a marking M if and only if for every place p in ●t it holds that M(p) > 0
+
+![alt text](image-80.png)
+
+- When we transition, the markers are consumed to create a new token in the next place.
+
+![alt text](image-81.png)
+
+## Occurrence Sequences
+
+The sequence of transitions in a system, think of the system playing out in a powerpoint or as a gif, token by token.

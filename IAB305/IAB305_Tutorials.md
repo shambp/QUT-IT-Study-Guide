@@ -338,6 +338,7 @@ Rockhampton, and Roma. Traction employs 120 fulltime staff members including 65 
 drivers and maintenance staff on its books. It operates a fleet of 75 company-owned vehicles and has a range of
 additional haulage equipment to allow it to transport specialised loads including refrigerated and frozen goods,
 dangerous goods, containers and long loads. It operates its own maintenance facilities at all company locations.
+
 > Traction Shipping has experienced unprecedented growth over the past decade and now needs to replace its
 proprietary transport management information system (TOMIS) with a state-of-the-art ERP system across all
 company locations. This system needs to manage all company processes and assets. It also needs to support the
@@ -345,12 +346,27 @@ company website which provides consignment entry and management facilities for i
 process for the acquisition of a new system for the company needs to be preceded by a detailed analysis
 
 - Identify what items should be considred for effective capacity management of the ERP system across all company locations?
-    - CPU Utilization
-    - How many servers are required to manage average traffic.
+    - CPU and memory Utilization
+        - What is an acceptable load average
+    - How many servers are required to manage average traffic. (peak and everage repsonse time)
         - When is peak time?
             - How many more server are required during peak time?
     - What is acceptable latency for a customer
     - What is acceptable latency for staff?
     - Should the customer facing and interal facing systems be on seperate servers?
+        - How should these be integrated in the case that these are seperate?
+    - What latency is acceptable?
+    - what is mean time to recovery and peak response time?
 
 ## Exercise 2
+
+> Assume as a systems analyst, you ahve been asked to manage the following IS changes:
+
+> Change 1: Upgrading your corporate email system to support smarphone webmail access
+> Change 2: Implementing an online store for a large reail store's product range
+
+- Suggest an appropriate IS changeover for each change.
+    - Change 1
+        - Phased would be the best way to go about this. Slowly ramping up between each department allows us to iron out any issues as we increase adoption across the company
+    - Change 2
+        - Pilot is best, a slower roll out will mean that different customers have different experiences, Whereas a p=pilot ensures that we can do cost effecitve testing and then roll out company wide

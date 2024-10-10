@@ -321,3 +321,36 @@ sick - ceebs catching it up :)
             - Industry regulations support
         
         - 20% - 
+
+# Week 10
+
+
+
+# Week 11
+
+## Exercise 1
+
+>Traction Shipping is a general freight company that provides local and regional shipping for businesses for
+consignments ranging from parcels through to full container loads. They deal with a variety of customers ranging from
+the general public through to large industrial customers with whom they have standing contracts for regular shipments
+between company sites. The business has its headquarters in Brisbane and freight depots in Southport,
+Rockhampton, and Roma. Traction employs 120 fulltime staff members including 65 drivers and has 120 casual
+drivers and maintenance staff on its books. It operates a fleet of 75 company-owned vehicles and has a range of
+additional haulage equipment to allow it to transport specialised loads including refrigerated and frozen goods,
+dangerous goods, containers and long loads. It operates its own maintenance facilities at all company locations.
+> Traction Shipping has experienced unprecedented growth over the past decade and now needs to replace its
+proprietary transport management information system (TOMIS) with a state-of-the-art ERP system across all
+company locations. This system needs to manage all company processes and assets. It also needs to support the
+company website which provides consignment entry and management facilities for its customers. The selection
+process for the acquisition of a new system for the company needs to be preceded by a detailed analysis
+
+- Identify what items should be considred for effective capacity management of the ERP system across all company locations?
+    - CPU Utilization
+    - How many servers are required to manage average traffic.
+        - When is peak time?
+            - How many more server are required during peak time?
+    - What is acceptable latency for a customer
+    - What is acceptable latency for staff?
+    - Should the customer facing and interal facing systems be on seperate servers?
+
+## Exercise 2

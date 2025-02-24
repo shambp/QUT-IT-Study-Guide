@@ -79,6 +79,8 @@ Year 8 business throwback, mostly talking about SWOT and PESTLE analysis
         - Data protection laws
         - Health and safety
 
+![alt text](image-4.png)
+
 ## Swot Analysis
 
 > Finds both external and internal EEF
@@ -101,3 +103,5 @@ Year 8 business throwback, mostly talking about SWOT and PESTLE analysis
             - Competition
             - Current trends in society
             - What regulations will act on us
+
+![alt text](image-3.png)

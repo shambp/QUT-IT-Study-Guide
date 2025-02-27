@@ -1,5 +1,7 @@
 # Week 1
 
+> ok this is a bit of a super week
+
 ## Statis vs Dynamic Web Apps
 
 ![alt text](image.png)
@@ -80,5 +82,77 @@ The way the unit teaches user stories is also fine, which ditches the descriptio
 
 ## Developing the Conceptual Model
 
-The point of the conceptual model is to help identify relevant concepts related to the problem raised in the US
+The point of the conceptual model is to help identify relevant concepts related to the problem raised in the US.
 
+When developing the conceptual model, we need to follow these 5 steps:
+
+- Identify Objects
+    - Look at your list of User stories
+    - Find the nouns
+        - As a *user* I need to view *stock* on hand for all *locations*
+    - Discover the concepts or classes
+        - User
+        - Stock
+        - Locations
+    - Find the relationships between these concepts
+        - an assosciation is when one objects is related to another object in a US (from a semantic perspective)
+            - Think about databases
+                - Sales assistant checks stock on hand
+                - The next few slides are literally just UML
+
+- Identify Relationships
+- Refine Objects
+    - Can these concepts live independently? Or do they need to be attributes of an existing object
+        - Makes it possible to lcoate duplicates or other redundant concepts
+        - It is wise to use lucid chart for something like this to help visualise
+
+![alt text](image-3.png)
+
+![alt text](image-2.png)
+
+- It is important to clarify the difference between association, aggregation and composition
+    - Association is the realtionship where an object contains some other objects
+        - Store has employees
+    - Aggregations is when two objects and exist independently
+    - Composition is the same as aggregation, but has an implied ownership
+        - Plane has wings
+
+![alt text](image-4.png)
+
+- Inheritance is similair to the above, is important to touch on seperately, inheritance when an object is a type of another object
+    - An administrator and customer are both users
+    - they should be annotated as follows.
+
+![alt text](image-5.png)
+
+- Decide multiplicity of relationships
+    - How many objects of one class is related to the objects of another class
+        - 1 to 1
+        - 1 to many
+        - 1 to 0 to many
+        - many to manu
+        - you should know how these relationships works if you did database managements or literally any other IAB unit
+
+- Identify functions/responsibilities
+    - Identify verbs
+        -  As a user i want to **view all the hotels** of the hotel chan and their locations
+    - These verbs need to be assosciated to a class
+        - A class needs to be responsible for itself
+            - Creation
+            - Updates
+            - Retrieval of information of object
+            - Deletion of object
+        - **View all hotels** should belong to the hotel class, and not something like the room class
+
+## Developing the data model
+
+- Applciations stores persistent data in database
+    - is only concerned with data and relationships
+    - Our classes become entities (UML)
+    - This is a relational database of our website essentially
+
+## Developing the views/wireframes
+
+The wireframe is our non-working protype of how the website should look in a low fidelity representation and allows us to evaluate the effectiveness of a page and determine the requirements.
+
+![alt text](image-6.png)

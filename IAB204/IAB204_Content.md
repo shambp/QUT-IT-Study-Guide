@@ -18,15 +18,15 @@ Year 8 business throwback, mostly talking about SWOT and PESTLE analysis
 
 ## Levels of business analysis
 
-![alt text](image.png)
+<img src="image.png" alt="Alt Text" style="width:75%; height:auto;">
 
 ## Business ecosystem
 
-![alt text](image-1.png)
+<img src="image-1.png" alt="Alt Text" style="width:75%; height:auto;">
 
 ## BA process life cycle
 
-![alt text](image-2.png)
+<img src="image-2.png" alt="Alt Text" style="width:75%; height:auto;">
 
 ## Influences on the analysis process
 
@@ -79,7 +79,7 @@ Year 8 business throwback, mostly talking about SWOT and PESTLE analysis
         - Data protection laws
         - Health and safety
 
-![alt text](image-4.png)
+<img src="image-4.png" alt="Alt Text" style="width:75%; height:auto;">
 
 ## Swot Analysis
 
@@ -104,4 +104,4 @@ Year 8 business throwback, mostly talking about SWOT and PESTLE analysis
             - Current trends in society
             - What regulations will act on us
 
-![alt text](image-3.png)
+<img src="image-3.png" alt="Alt Text" style="width:75%; height:auto;">

@@ -5,3 +5,11 @@ You are more than welcome to contribute to this site, whether that is through re
 [IAB201 - Modelling Techniques for Information Systems](https://shambp.github.io/QUT-IT-Study-Guide/IAB201/IAB201_Tutorials)
 
 [IAB305 - Information Systems Lifecycle Management](https://shambp.github.io/QUT-IT-Study-Guide/IAB305/IAB305_Tutorials)
+
+TODO:
+make sure there are links to all of the files
+fix all of the images using the following link so they are no longer fucking ginourmous
+
+```
+<img src="image.png" alt="Alt Text" style="width:75%; height:auto;">
+```

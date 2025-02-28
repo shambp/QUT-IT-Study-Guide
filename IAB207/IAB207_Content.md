@@ -4,7 +4,7 @@
 
 ## Statis vs Dynamic Web Apps
 
-![alt text](image.png)
+<img src="image.png" alt="Alt Text" style="width:75%; height:auto;">
 
 > Static web apps will display the same content to the user, wheras dynamic sites allow for personalisation for a tailor-made experience
 
@@ -32,7 +32,7 @@ Web apps are a **thin client** and differ heavily from other types of applicatio
             - Allow interactions with user to edit model where relevant
             - An advantage of using MVC is that you can change the view without impacting the rest of the system
 
-![alt text](image-1.png)
+<img src="image-1.png" alt="Alt Text" style="width:75%; height:auto;">
 
 > As mentioned prior, the presentation is abstracted from the data layer, the controller acts as an intermediary between the two
 
@@ -106,9 +106,9 @@ When developing the conceptual model, we need to follow these 5 steps:
         - Makes it possible to lcoate duplicates or other redundant concepts
         - It is wise to use lucid chart for something like this to help visualise
 
-![alt text](image-3.png)
+<img src="image-3.png" alt="Alt Text" style="width:75%; height:auto;">
 
-![alt text](image-2.png)
+<img src="image-2.png" alt="Alt Text" style="width:75%; height:auto;">
 
 - It is important to clarify the difference between association, aggregation and composition
     - Association is the realtionship where an object contains some other objects
@@ -117,13 +117,13 @@ When developing the conceptual model, we need to follow these 5 steps:
     - Composition is the same as aggregation, but has an implied ownership
         - Plane has wings
 
-![alt text](image-4.png)
+<img src="image-4.png" alt="Alt Text" style="width:75%; height:auto;">
 
 - Inheritance is similair to the above, is important to touch on seperately, inheritance when an object is a type of another object
     - An administrator and customer are both users
     - they should be annotated as follows.
 
-![alt text](image-5.png)
+<img src="image-5.png" alt="Alt Text" style="width:75%; height:auto;">
 
 - Decide multiplicity of relationships
     - How many objects of one class is related to the objects of another class
@@ -155,4 +155,4 @@ When developing the conceptual model, we need to follow these 5 steps:
 
 The wireframe is our non-working protype of how the website should look in a low fidelity representation and allows us to evaluate the effectiveness of a page and determine the requirements.
 
-![alt text](image-6.png)
+<img src="image-6.png" alt="Alt Text" style="width:75%; height:auto;">

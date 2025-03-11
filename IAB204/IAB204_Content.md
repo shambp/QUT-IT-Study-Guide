@@ -159,3 +159,59 @@ Once we have understood the overall situation, we now create a set of goals and 
 
 - What needs to be delivered
 - How is this delivered?
+
+# Week 3
+
+## Defining the solution
+
+- Bringing information together from the business to support the selection of a final solution
+    - Ensures that we implement the right solution
+    - Allows us to find alternatives to anticipate stakeholder expectations
+    - Develop comprehensive business cases and roadmaps to guide implementation and manage expectations
+
+### How to Define the Solution
+- Determine our options using prioritization and categorisation techniques
+    - For each option, perform and analysis ti identify assumptions, constraints, risks, dependencies, intended benefits and disbenefits related to the options
+- Assess viability/feasibility of each option
+- Create business case
+    - Collect information from BVA
+- Engage the team to determine the solution approach and develop roadmap deployment
+
+<img src="image-9.png" alt="Alt Text" style="width:75%; height:auto;">
+
+## Idea Generation
+
+### SCAMPER
+
+<img src="image-10.png" alt="Alt Text" style="width:75%; height:auto;">
+
+### Lotus Blossom
+- Describe the problem
+- Surround it with ideas using brainstorming techniques
+- Unfold teh lotus blossom (make new ideas from the ideas that you just made)
+- Seek practical answers to the problem
+
+## Prioritisation
+
+<img src="image-11.png" alt="Alt Text" style="width:75%; height:auto;">
+
+Prioritisation is not an absolute process, you will need to negotiate and quantify why something goes where it goes.
+
+Stakeholders will often:
+- Avoid difficult decisions
+- Fail to recognise the need for a trade-off
+- Weigh everything too high
+
+In cases like this, its important to ask them what the outcome would be if the requirement didn't exist, ask them if there are existing systems in place, urgency, and potential risks if addressed later.
+
+Technical staff may influence these priorities through misleading advice on implementation difficulty
+
+### Prioritisation Techniques
+
+Moscow:
+- Must have
+- Should have
+- Could have
+- Won't have
+
+There are a bunch more, would be wiser to go through the slides tbh.

@@ -78,3 +78,46 @@ BPM is an ongoing process, that never truly ends.
 ## Modelling Theory
 
 Read the lectures notes if you need this, you learnt this in IAB201
+
+# Week 2
+
+This week is the intro to BPMN modelling and the application we will be using - Signavio, this is free using your QUT detils https://academic.signavio.com/p/register. The target audience for this modelling style are Process Owners, BAs, Solution Architects and Devs.
+
+BPMN consists of four types of **core elements**
+
+<img src="image-6.png" alt="Alt Text" style="width:75%; height:auto;">
+
+
+<img src="image-7.png" alt="Alt Text" style="width:75%; height:auto;">
+
+Honestly this is pretty self explanatory, if you need more watch the lecture.
+
+# Week 3
+
+This week we go a bit deeper into modelling processes covering the different kinds of gateways and some syntax
+
+<img src="image-8.png" alt="Alt Text" style="width:75%; height:auto;">
+
+These gates follow normal logic gate rules, xor is exclusive one or the other, and is both, or is one or both.
+
+## Syntax
+
+- Activites must have at least on incoming and outgoing flow
+- Start events have no incoming flow
+- End have no outgoing flow
+- Gateways
+    - Split
+        - Exactly one incoming and at least two outoing
+    - Join
+        - At least two incoming and exactly one outgoing
+- All nodes are on a path from start to an end events
+    - No random arcs or disconnected nodes
+- All roads need to lead to the finish line
+    - No deadlocks or livelocks (looping)
+- Single events cant receive multiple tokens
+- Each token of the process instance should be in a different end event
+- Zero lack of sync
+    - no de-sync
+- No dead activities
+- Does the model express what it is supposed to express?
+- Is your diagram readable?

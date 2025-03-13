@@ -156,3 +156,7 @@ When developing the conceptual model, we need to follow these 5 steps:
 The wireframe is our non-working protype of how the website should look in a low fidelity representation and allows us to evaluate the effectiveness of a page and determine the requirements.
 
 <img src="image-6.png" alt="Alt Text" style="width:75%; height:auto;">
+
+# Week 2
+
+This week is all about HTMl and CSS, im going to skip most of the content, you should be able to do it :)

@@ -215,3 +215,7 @@ Moscow:
 - Won't have
 
 There are a bunch more, would be wiser to go through the slides tbh.
+
+# Week 4
+
+The big tldr on this week is that there is no cost benefit analysis that is better than any other cost benefit analysis, you should be using them in tandem to paint a better picture on the best option.

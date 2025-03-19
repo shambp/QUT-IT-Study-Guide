@@ -68,3 +68,114 @@ Key Issues
 |---|---|---|---|
 | User government funding to improve workforce | Use government funding to improve compensation | Use gov funding to match compensation | Invest in better worker retnention strategy |
 | Lean on the large capacity/lower overall emission as a branding option | No competition, consistent improvement will likely improve patronage | Utilize tech to improve scheduling |  |
+
+# Week 2
+
+# Week 3
+
+# Week 4
+
+## Task 1
+Perform a technical feasbability analysis on selected solutions from tutorial 3
+
+- Ai diven personalised marketing
+    - List of key hardware requirements
+        - server to host AI and crunch data
+    - List of software
+        - potentially a license for chatgpt, copilot api etc
+        - google ad services etc
+    - Networking equipment
+        - Basic server networking rack
+            - firewall
+            - MX
+            - Switch
+            - VPN
+    - Technical skills
+        - Data scientists and engineers
+        - Front end devs to link google api to ai server
+        - Business analyst to design models in tandem with data scientist
+
+
+- Mobile app development
+    - List of key hardware requirements
+        - Machines to develop app
+        - Phone to test application
+        - Server to host application
+            - Store data
+    - List of software
+        - Licensing fees for IDE (if not VScode)
+    - Networking Equipment
+        - Basic network rack
+            - Firewall
+            - VPN?
+            - Switch
+            - MX
+    - Technical skills required
+        - Mobile app devs
+        - BA
+        - Data scientists and engineers
+        - UI/UX designers
+
+> In tutorial we decided to continue the tasks using the AI driven personalised > marketing
+
+## Task 2
+
+Perform a cost benefit analysis on the case in the worksheet,
+
+Calculate the before vs after.
+
+workers go from 12 to 14, how does that scale across all of the wokers?
+How many gained working hours to I get from reduced absenteeism?
+How much do I save on training costs by reducing turnover?
+
+What are the benefits (gains)
+What do i lose (cost)
+How do they weigh up?
+
+## Task 3
+
+cost is 225000
+y1 = 95000
+y2 = 80000
+y3 = 60000
+y4 = 55000
+
+### PBP
+
+PBP = Initial Investment/Annual Return
+PBP = 225000/95000
+PBP = 2.368
+
+### ROI
+
+ROI = ((Total Net Return - Initial investment)/Initial Investment) * 100
+ROI = ((290000 - 225000)/225000) * 100
+ROI = (65000/225000) * 100
+ROI = 0.288 * 100
+ROI = 28%
+
+### NPV
+Find PV, then add together
+Present Value = Future Value/(1+interest rate)^year number
+PV = FV/(1+r)^1
+PV = 95000/(1 + 0.12)^1
+PV = 84821
+
+PV = FV/(1+r)^2
+PV = 80000(1.25)
+PV = 64000
+
+PV = FV/(1+r)^3
+PV = 60000/1.4
+PV = 42857
+
+PV = FV/(1+r)^4
+PV = 55000/1.568
+PV = 35076
+
+NPV = All added together
+NPV = 226754
+
+### IRR
+
+I am skipping this its kind of a vibes thing
